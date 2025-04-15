@@ -1,0 +1,42 @@
+.navbarWrapper {
+  border-right: 1px solid grey;
+  width: 250px;
+  height: 100vh;
+  padding-top: 50px;
+}
+.navbarLogo {
+  width: 100%;
+}
+.navbarLogoImg {
+  width: 100%;
+}
+.navbarLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
+
+.navbarLinkItem {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 15px 0;
+}
+.navbarLinkImg {
+  width: 20px;
+  margin: 0 10px 0 0;
+}
+.navbarFirmLinks {
+  margin: 25px 0 0;
+  text-align: center;
+}
+
+.navbarLanguage {
+  width: 100%;
+  text-align: center;
+}
+.languageImg {
+  width: 20%;
+}

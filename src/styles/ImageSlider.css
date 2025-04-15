@@ -1,0 +1,23 @@
+.imageSliderWrapper {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.imageSlider {
+  display: flex;
+  width: 100%;
+}
+.imageSliderImg {
+  width: 100%;
+}
+
+.imageSliderArrows {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.imageSliderArrow {
+  border: none;
+  margin: 5px;
+}

@@ -1,0 +1,25 @@
+.headerWrapper {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  padding: 15px 15px 15px 0;
+  width: 100%;
+  border-bottom: 0.4px solid #9f9f9f;
+
+  background-color: #ffffffc4;
+}
+.headerLink {
+  color: inherit;
+}
+
+.headerLink:nth-child(1) {
+  margin: 0 20 px 0 0;
+}
+
+.headerSocialLinks {
+  margin: 0 0 0 20px;
+}
+.headerLinkImg {
+  width: 35px;
+}

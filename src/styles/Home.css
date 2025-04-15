@@ -1,0 +1,16 @@
+.homeWrapper {
+  width: 100%;
+  padding: 10px;
+}
+.homeHero {
+  position: relative;
+}
+.heroHeader {
+  width: 100%;
+  position: absolute;
+}
+.heroHeaderImg {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+}

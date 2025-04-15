@@ -1,0 +1,16 @@
+
+  {
+    "header" : {
+      "headerHome": "Hlavná",
+      "headerCatalog": "Katalóg",
+      "headerBalconies": "Balkóny",
+      "headerRailings": "Zábradlia",
+      "headerGates": "Brány",
+      "headerAboutUs": "O nás",
+      "headerContact": "Kontakt"
+    },
+      "home" : {
+        "homeHeroTitle" : "Timalex-Kov",
+        "homeHeroSubtitle" : "Kovové konštrukcie pre život a podnikanie"
+      }
+    }

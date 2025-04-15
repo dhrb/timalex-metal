@@ -1,0 +1,15 @@
+{
+  "header" : {
+    "headerHome": "Home",
+    "headerCatalog": "Catalog",
+    "headerBalconies": "Balconies",
+    "headerRailings": "Railings",
+    "headerGates": "Gates",
+    "headerAboutUs": "About Us",
+    "headerContact": "Contact"
+  },
+    "home" : {
+      "homeHeroTitle" : "Timalex-Metal",
+      "homeHeroSubtitle" : "Metal constructions for life and business"
+    }
+  }
