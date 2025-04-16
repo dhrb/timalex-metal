@@ -1,7 +1,7 @@
 .navbarWrapper {
   border-right: 1px solid grey;
   width: 250px;
-  height: 100vh;
+  height: 100%;
   padding-top: 50px;
 }
 .navbarLogo {

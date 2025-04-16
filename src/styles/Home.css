@@ -7,10 +7,28 @@
 }
 .heroHeader {
   width: 100%;
-  position: absolute;
 }
 .heroHeaderImg {
   width: 100%;
-  position: absolute;
   top: 100px;
+}
+
+.heroOfferItem {
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 15px;
+  margin: 0 10px;
+  width: 100%;
+  text-align: center;
+}
+.heroOfferItem:hover {
+  border: 1px solid red;
+  cursor: pointer;
+}
+.homeHeroOfferItems {
+  display: flex;
+}
+
+.offerItemImg {
+  width: 100px;
 }

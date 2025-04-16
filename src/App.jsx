@@ -9,6 +9,7 @@ import Railings from "./pages/Railings.jsx";
 import Gates from "./pages/Gates.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import Contact from "./pages/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 import "./App.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -36,6 +37,9 @@ function App() {
                 <Route path="/aboutUs" element={<AboutUs />} />
                 <Route path="/contact" element={<Contact />} />
               </Routes>
+            </div>
+            <div className="appFooter">
+              <Footer />
             </div>
           </div>
         </div>

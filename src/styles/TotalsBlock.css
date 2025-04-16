@@ -1,0 +1,29 @@
+.totalsBlockWrapper {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid grey;
+  padding: 15px 0;
+}
+.totalsBlockItem {
+  width: 100%;
+  text-align: center;
+  border-radius: 7px;
+  margin: 0 5px;
+  padding: 5px;
+}
+.totalsBlockItem:hover {
+  background-color: rgba(249, 230, 222, 0.407);
+  cursor: pointer;
+}
+
+.totalBlockItemImg {
+  width: 30%;
+}
+.totalsBlockItemNumber {
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(245, 166, 20);
+}
+.totalsBlockItemtext {
+  margin: 5px 0 0;
+}

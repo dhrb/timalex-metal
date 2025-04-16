@@ -1,0 +1,49 @@
+.footerWrapper {
+  width: 100%;
+  padding: 10px;
+  border-top: 0.7px solid gray;
+}
+.footerMainLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerMainLogoImg {
+  width: 17%;
+}
+
+.footerContacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerContactItem {
+  margin: 0 0 0 15px;
+  color: black;
+}
+.footerContactImg {
+  width: 50px;
+}
+.footerEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerSubscribe {
+  margin: 20px;
+  border: 0.4px solid grey;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+.footerSubscribeSendIcon {
+  width: 20px;
+}
+.footerSubscribeInput {
+  min-width: 250px;
+  border: none;
+}

@@ -9,8 +9,57 @@
       "headerAboutUs": "O nás",
       "headerContact": "Kontakt"
     },
-      "home" : {
-        "homeHeroTitle" : "Timalex-Kov",
-        "homeHeroSubtitle" : "Kovové konštrukcie pre život a podnikanie"
-      }
+    "home" : {
+      "homeHeroTitle" : "Timalex-Kov",
+      "homeHeroSubtitle" : "Kovové konštrukcie pre život a podnikanie",
+
+      "homeHeroAboutTitle" : "Zadali ste nám úlohu - my ju splníme",
+      "homeHeroAboutSubtitle" : "Vyrábame konštrukcie všetkých veľkostí - od malých riešení až po komplexné priemyselné systémy. Vďaka modernému vybaveniu a osvedčeným technológiám zaručujeme spoľahlivosť, presnosť a trvanlivosť každého výrobku.",
+
+      "homeHeroOfferTitleCard1" : "Kovové výrobky",
+      "homeHeroOfferTitleCard2" : "Kovové rámy",
+      "homeHeroOfferTitleCard3" : "Stavebné rámy",
+      "homeHeroOfferTitleCard4" : "Tím profesionálov",
+
+      "homeHeroOfferSubtitleCard1" : "Od malých až po veľké riešenia",
+      "homeHeroOfferSubtitleCard2" : "Jednotlivé zákazky akejkoľvek zložitosti pre budovy a stavby",
+      "homeHeroOfferSubtitleCard3" : "Rozpočtové riešenie problému výroby modulárnych priestorov.",
+      "homeHeroOfferSubtitleCard4" : "S potrebnými zručnosťami ľahko vykonávame pridelené úlohy."
+    },
+
+    "aboutUs" : {
+      "aboutUsCompanyInfoTitle" : "O nás",
+      "aboutUsCompanyInfoText" : "Spoločnosť Timalex-Metal je symbolom spoľahlivosti a dlhoročných skúseností v oblasti kovových konštrukcií. Už viac ako 30 rokov sa venujeme výrobe balkónových zábradlí, brán, madiel a individuálnych konštrukcií na mieru.",
+
+      "aboutUsCompanyInfoExperience" : "Naše skúsenosti a prístup",
+      "aboutUsCompanyInfoExperienceText" : "Náš tím tvorí skupina odborníkov s bohatou praxou. Každý projekt prechádza viacerými fázami: meranie, návrh, výroba a montáž. Ku každému klientovi pristupujeme individuálne a hľadáme optimálne technické riešenia.",
+
+      "aboutUsCompanyInfoProduction" : "Vlastná výroba",
+      "aboutUsCompanyInfoProductionText" : "Disponujeme moderným vybavením, ktoré umožňuje presné spracovanie kovu. Vyrábame typizované aj atypické konštrukcie podľa výkresov alebo požiadaviek zákazníka.",
+    
+
+      "whatWeDoTitle": "Čo robíme",
+      "whatWeDoSubtitle": "Špecializujeme sa na výrobu širokej škály kovových produktov: od klasických brán a balkónov až po zložité zvárané konštrukcie a rámy pre priemyselné a obytné objekty.",
+      "wwdItemGates": "⚙️ Brány – od klasických po automatizované systémy",
+      "wwdBalconies": "🏢 Balkónové konštrukcie – estetika + bezpečnosť",
+      "wwdRailings": "🛠️ Zábradlia a ploty – pre interiér aj exteriér",
+      "wwdFrames": "🧱 Zvárané rámy – pre sklady, prístrešky, stavby",
+      "wwdCustom": "🔩 Individuálne projekty – podľa výkresov alebo predstáv klienta",
+      "aboutQualityNote": "Každá konštrukcia je výsledkom koordinovanej práce majstrov, technológov a montážneho tímu. Naším cieľom nie je len 'niečo vyrobiť', ale dodať kovové riešenie, ktoré vydrží roky."
+    
+    },
+    "totalsBlock" : {
+      "readyOrdersText" : "Dokončených zákaziek",
+      "readyProjectsText" : "Dokončených projektov",
+      "monthlyPowerText" : "Ton mesačnej kapacity",
+      "marketYearsText" : "Rokov na trhu"
+    },
+
+    "footer" : {
+      "footerTitle" : "Timalex - kov",
+      "footerSubtitle" : "Výroba a montáž kovových konštrukcií od roku 1993. Pracujeme na individuálnych a štandardných projektoch.",
+      "footerSubscribe" : "Prihláste sa na odber našich noviniek!",
+      "footerAuthor" : "Navrhol a vytvoril @dhrb",
+      "footerCopyright" : "Všetky práva vyhradené"
     }
+  }

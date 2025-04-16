@@ -20,7 +20,10 @@ function Header() {
         >
           <img img className="headerLinkImg" src={whatsappIcon} />
         </a>
-        <a href="tel:+421918123153" className="headerLink">
+        <a
+          href="https://www.linkedin.com/in/alexsimonov-timalex/"
+          className="headerLink"
+        >
           <img className="headerLinkImg" src={linkedinIcon} />
         </a>
       </div>

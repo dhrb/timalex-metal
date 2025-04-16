@@ -1,0 +1,26 @@
+.aboutUsWrapper {
+  padding: 15px 10px;
+}
+.aboutUsMainInformation {
+  text-align: center;
+}
+.aboutUsCompanyInfo {
+  display: flex;
+}
+.aboutUsVideoWrapper iframe {
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+}
+.aboutUsTextWrapper {
+  padding: 15px;
+  margin: auto 0;
+}
+.aboutUsCompanyInfoText {
+  margin: 10px 0 20px 0;
+}
+
+.aboutUsSection {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
