@@ -1,4 +1,49 @@
 .catalogWrapper {
+  padding: 10px 10px 20px;
+}
+.catalogHeaderTitle {
+  font-size: 2em;
+  font-weight: 600;
+}
+.catalogHeaderSubtitle {
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  font-size: 1.3em;
+  margin: 10px 10px;
+}
+.catalogHeaderSubtitle:nth-child(3) {
+  font-weight: 300;
+}
+.imagesGallerySection {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+}
+.galleryCard {
+  padding: 15px;
+}
+.galleryImg {
+  width: 300px;
+}
+
+.catalogFilters {
+  display: flex;
+  align-items: center;
+  margin: 0 13px 0;
+}
+.catalogFiltersBtn {
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 15px 0 0;
+}
+
+.catalogFiltersBtnActive {
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 15px 0 0;
+  border: 1px solid green;
 }

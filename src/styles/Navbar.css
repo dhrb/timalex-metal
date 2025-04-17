@@ -1,6 +1,6 @@
 .navbarWrapper {
   border-right: 1px solid grey;
-  width: 250px;
+  width: 225px;
   height: 100%;
   padding-top: 50px;
 }
@@ -13,16 +13,19 @@
 .navbarLinks {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: left;
+  justify-content: right;
 }
 
 .navbarLinkItem {
   background-color: #fff;
+  color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 0 0 15px 0;
+  padding: 15px 10px;
+}
+.navbarLinkItem:hover {
+  color: #fff;
+  background-color: rgba(174, 174, 174, 0.348);
 }
 .navbarLinkImg {
   width: 20px;

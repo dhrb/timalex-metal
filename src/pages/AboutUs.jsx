@@ -9,7 +9,15 @@ function AboutUs() {
     <div className="aboutUsWrapper">
       <div className="aboutUsMainInformation">
         <div className="aboutUsCompanyInfo">
-          <div className="aboutUsVideoWrapper">
+          <div className="aboutUsTextWrapper">
+            <h2 className="aboutUsCompanyInfoTitle">
+              {translate("aboutUs.aboutUsCompanyInfoTitle")}
+            </h2>
+            <p className="aboutUsCompanyInfoText">
+              {translate("aboutUs.aboutUsCompanyInfoText")}
+            </p>
+          </div>
+          {/* <div className="aboutUsVideoWrapper">
             <iframe
               className="iframeVideo"
               iframe
@@ -20,15 +28,7 @@ function AboutUs() {
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-          </div>
-          <div className="aboutUsTextWrapper">
-            <h2 className="aboutUsCompanyInfoTitle">
-              {translate("aboutUs.aboutUsCompanyInfoTitle")}
-            </h2>
-            <p className="aboutUsCompanyInfoText">
-              {translate("aboutUs.aboutUsCompanyInfoText")}
-            </p>
-          </div>
+          </div> */}
         </div>
         <div className="aboutUsCompanyInfo">
           <h2 className="aboutUsCompanyInfoExperience">
@@ -38,7 +38,7 @@ function AboutUs() {
             {translate("aboutUs.aboutUsCompanyInfoExperienceText")}
           </p>
         </div>
-        <div className="aboutUsCompanyInfo">
+        <div className="aboutUsCompanyWrapp2">
           <h2 className="aboutUsCompanyInfoTitle">
             {translate("aboutUs.aboutUsCompanyInfoProduction")}
           </h2>

@@ -11,10 +11,14 @@
     },
     "home" : {
       "homeHeroTitle" : "Timalex-Kov",
-      "homeHeroSubtitle" : "Kovové konštrukcie pre život a podnikanie",
+      "heroContactUsBtn" : "Kontaktuj nás!",
 
-      "homeHeroAboutTitle" : "Zadali ste nám úlohu - my ju splníme",
-      "homeHeroAboutSubtitle" : "Vyrábame konštrukcie všetkých veľkostí - od malých riešení až po komplexné priemyselné systémy. Vďaka modernému vybaveniu a osvedčeným technológiám zaručujeme spoľahlivosť, presnosť a trvanlivosť každého výrobku.",
+      "homeHeroAboutTitle" : "Kovové konštrukcie na mieru pre domácnosti aj firmy.",
+      "homeHeroAboutSubtitle" : "Zabezpečujeme výrobu a montáž brán, balkónov, zábradlí, oceľových rámov a individuálnych riešení podľa požiadaviek klienta. Viac ako 30 rokov skúseností, vlastná výroba, dodržané termíny a spoľahlivé výsledky.",
+
+      "homeHeroAdvantagesText1" : "V oblasti kovových konštrukcií pôsobíme už viac ako 30 rokov a dodávame spoľahlivé a funkčné riešenia pre súkromné aj komerčné projekty. Špecializujeme sa na brány, balkóny, zábradlia, oceľové rámy a individuálne konštrukcie podľa požiadaviek zákazníka.",
+      "homeHeroAdvantagesText2" : "Náš tím tvoria skúsení majstri, inžinieri a montážnici, ktorí dokonale ovládajú svoje remeslo. Každý projekt realizujeme s dôrazom na kvalitu, presnosť a bezpečnostné štandardy.",
+      "homeHeroAdvantagesText3" : "Disponujeme vlastnou výrobou, moderným vybavením a overenými technológiami, ktoré nám umožňujú realizovať aj tie najnáročnejšie technické riešenia — načas a bez kompromisov.",
 
       "homeHeroOfferTitleCard1" : "Kovové výrobky",
       "homeHeroOfferTitleCard2" : "Kovové rámy",
@@ -25,6 +29,29 @@
       "homeHeroOfferSubtitleCard2" : "Jednotlivé zákazky akejkoľvek zložitosti pre budovy a stavby",
       "homeHeroOfferSubtitleCard3" : "Rozpočtové riešenie problému výroby modulárnych priestorov.",
       "homeHeroOfferSubtitleCard4" : "S potrebnými zručnosťami ľahko vykonávame pridelené úlohy."
+    },
+
+    "catalog" : {
+      "catalogHeaderTitle" : "Katalóg kovových výrobkov",
+      "catalogHeaderSubtitle" : "V tejto časti nájdete príklady našich realizovaných projektov - balkónov, brán, zábradlí a iných kovových konštrukcií.",
+      "catalogHeaderSubtitle2" : " Každý výrobok je vyrobený podľa individuálnych potrieb zákazníka a moderných štandardov kvality.",
+      "allFilterBtn" : "Všetky",
+      "balconsFilterBtn" : "Balkóny",
+      "constructionsFilterBtn" : "Konštrukcie",
+      "gatesFilterBtn" : "Brány"
+    },
+
+    "balconies" : {
+      "balconiesTitle" : "Kovové konštrukcie na mieru pre náročné fasádne riešenia a architektúru",
+      "balconiesSubtitle" : "Vyrábame kovové balkóny pre novostavby aj rekonštrukcie. Individuálny dizajn, statická spoľahlivosť a kvalitné spracovanie detailov."
+    },
+    "railings" : {
+      "railingsTitle" : "Spoľahlivé bezpečnostné systémy pre schodiská, terasy a verejné priestory",
+      "railingsSubtitle" : "Oceľové zábradlia pre domy aj verejné priestory. Dôraz na bezpečnosť, estetiku a precízne prispôsobenie architektúre."
+    },
+    "gates" : {
+      "gatesTitle" : "Technické riešenia pre riadenie vstupu — komfort, automatizácia, bezpečnosť",
+      "gatesSubtitle" : "Realizujeme manuálne aj automatické brány pre súkromné a firemné objekty. Kompletná montáž a technické prispôsobenie."
     },
 
     "aboutUs" : {

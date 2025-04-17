@@ -41,7 +41,6 @@ function Navbar() {
         </Link>
         <Link to="/catalog" className="navbarLinkItem">
           <img src={catalogIcon} alt="" className="navbarLinkImg" />
-
           {translate("header.headerCatalog")}
         </Link>
         <Link to="/balconies" className="navbarLinkItem">

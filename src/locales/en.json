@@ -10,10 +10,16 @@
   },
     "home" : {
       "homeHeroTitle" : "Timalex-Metal",
-      "homeHeroSubtitle" : "Metal constructions for life and business",
+      "heroContactUsBtn" : "Contact Us",
+      "heroCatalogBtn" : "Check our projects",
 
-      "homeHeroAboutTitle" : "You set us a task - we fulfill it",
-      "homeHeroAboutSubtitle" : "We manufacture structures of any format - from small-sized solutions to complex industrial systems. Thanks to modern equipment and proven technologies, we guarantee the reliability, accuracy and durability of each product.",
+      "homeHeroAboutTitle" : "Reliable metal structures for residential and industrial needs.",
+      "homeHeroAboutSubtitle" : "We specialize in manufacturing and installing gates, balconies, railings, welded frames, and fully customized metal projects. With over 30 years of experience, in-house production and precision craftsmanship — we deliver quality you can trust.",
+
+      "homeHeroAdvantagesText1" : "We’ve been working in the field of metal structures for over 30 years, delivering reliable and functional solutions for both residential and commercial projects. We specialize in gates, balconies, railings, frames, and fully customized structures based on client designs.",
+      "homeHeroAdvantagesText2" : "Our team consists of experienced craftsmen, engineers, and installers who are true experts in their work. Every project is carried out with strict attention to quality, precision, and safety standards.",
+      "homeHeroAdvantagesText3" : "We operate our own production facilities equipped with modern tools and proven technologies, allowing us to implement even the most complex technical solutions — on time and without compromise.",
+      
       
       "homeHeroOfferTitleCard1" : "Metal products",
       "homeHeroOfferTitleCard2" : "Metal frames",
@@ -25,7 +31,31 @@
       "homeHeroOfferSubtitleCard3" : "A budgetary solution to the problem of modular space production.",
       "homeHeroOfferSubtitleCard4" : "Having the necessary skills, we easily perform the assigned tasks."
     },
+    
+    "catalog" : {
+      "catalogHeaderTitle" : "Catalog of metal products",
+      "catalogHeaderSubtitle" : "In this section, you will find examples of our completed projects - balconies, gates, railings, and other metal structures. ",
+      "catalogHeaderSubtitle2" : "Each product is made to meet individual customer needs and modern quality standards.",
+      "allFilterBtn" : "All",
+      "balconsFilterBtn" : "Balcons",
+      "constructionsFilterBtn" : "Constructions",
+      "gatesFilterBtn" : "Gates"
+    },
 
+    "balconies" : {
+      "balconiesTitle" : "Custom metal structures for complex architectural façade solutions",
+      "balconiesSubtitle" : "We produce metal balconies for new construction and renovations. Reliable solutions with custom dimensions, design, and technical detailing."
+    },
+    "railings" : {
+      "railingsTitle" : "Reliable safety systems for staircases, terraces, and public environments",
+      "railingsSubtitle" : "Durable steel railings for residential and public use. Focus on safety, precision workmanship, and architectural compatibility in every project."
+    },
+    "gates" : {
+      "gatesTitle" : "Engineered access control solutions — convenience, automation, protection",
+      "gatesSubtitle" : "Design and installation of manual or automated gates for private and commercial facilities. Tailored functionality and strong structural integrity."
+    },
+
+    
     "aboutUs" : {
       "aboutUsCompanyInfoTitle" : "About us",
       "aboutUsCompanyInfoText" : "Timalex-Metal is a company with experience and reliability in the field of metal structures. We have been operating in the market for over 30 years, specializing in the manufacture of balcony railings, gates, railings, and custom-made structures of any complexity.",

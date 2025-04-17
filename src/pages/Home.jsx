@@ -2,6 +2,7 @@ import React from "react";
 import "./../styles/Home.css";
 import { useLang } from "../components/LanguageController";
 import ImageSlider from "../components/ImageSlider";
+import TotalsBlock from "../components/TotalsBlock";
 import homePageBalconImg from "./../assets/images/homePageBalcon.jpg";
 import homePageGateImg from "./../assets/images/homepageGateImg.jpg";
 import homePageRailingsImg from "./../assets/images/homePageRailings.jpg";
@@ -14,21 +15,32 @@ function Home() {
   return (
     <div className="homeWrapper">
       <div className="homeHero">
-        <div className="heroHeader">
-          <img src={homeHeroBgImage} alt="" className="heroHeaderImg" />
-        </div>
         <h3 className="heroHeaderTitle">{translate("home.homeHeroTitle")}</h3>
-        {/* <div className="homeSlider">
-          <ImageSlider images={images} />
-          </div> */}
-        <div className="homeHeroAbout">
-          <h2 className="homeHeroAboutTitle">
-            {translate("home.homeHeroAboutTitle")}
-          </h2>
-          <p className="homeHeroAboutTitle">
-            {translate("home.homeHeroAboutSubtitle")}
-          </p>
-        </div>
+        <button className="heroContactUsBtn">
+          {translate("home.heroContactUsBtn")}
+        </button>
+        <button className="heroContactUsBtn">
+          {translate("home.heroCatalogBtn")}
+        </button>
+      </div>
+      <div className="homeHeroAbout">
+        <h2 className="homeHeroAboutTitle">
+          {translate("home.homeHeroAboutTitle")}
+        </h2>
+        <p className="homeHeroAboutSubtitle">
+          {translate("home.homeHeroAboutSubtitle")}
+        </p>
+      </div>
+      <div className="homeHeroAdvantages">
+        <p className="homeHeroAdvantagesText">
+          {translate("home.homeHeroAdvantagesText1")}
+        </p>
+        <p className="homeHeroAdvantagesText">
+          {translate("home.homeHeroAdvantagesText2")}
+        </p>
+        <p className="homeHeroAdvantagesText">
+          {translate("home.homeHeroAdvantagesText3")}
+        </p>
       </div>
       <div className="homeHeroOffers">
         <div className="homeHeroOfferItems">
@@ -69,6 +81,9 @@ function Home() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="homeTotalsBlock">
+        <TotalsBlock />
       </div>
     </div>
   );

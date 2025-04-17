@@ -5,22 +5,49 @@
   text-align: center;
 }
 .aboutUsCompanyInfo {
-  display: flex;
 }
-.aboutUsVideoWrapper iframe {
+/* .aboutUsVideoWrapper iframe {
   border-radius: 5px;
   width: 400px;
   height: 300px;
-}
+} */
 .aboutUsTextWrapper {
-  padding: 15px;
   margin: auto 0;
+  height: 250px;
+  background: url("./../assets/images/aboutUsBg.jpg") 50% 15% no-repeat;
+}
+.aboutUsCompanyWrapp2 {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("./../assets/images/aboutUsBg.jpg") 50% 45% no-repeat;
+}
+
+.aboutUsCompanyInfoTitle {
+  background-color: #fff;
+  padding: 15px 0;
+}
+.aboutUsCompanyInfoExperience {
+  padding: 15px 0 0 0;
 }
 .aboutUsCompanyInfoText {
-  margin: 10px 0 20px 0;
+  background-color: #fff;
+  padding: 15px 0 15px 0;
+}
+.aboutUsCompanyInfo h2 {
+  font-size: 22px;
+}
+.aboutUsCompanyInfo p {
+  font-size: 16px;
 }
 
 .aboutUsSection {
-  text-align: center;
-  margin: 0 0 20px 0;
+  margin: 25px auto;
+  padding: 0 0 0 5%;
+}
+.aboutUsListWWD {
+  padding: 15px 5%;
+
+  list-style-type: none;
 }

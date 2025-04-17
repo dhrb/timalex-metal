@@ -1,18 +1,49 @@
 .homeWrapper {
-  width: 100%;
   padding: 10px;
 }
 .homeHero {
-  position: relative;
-}
-.heroHeader {
+  background-image: url("./../assets/images/IMG_1143.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
   width: 100%;
+  font-size: 100%;
 }
-.heroHeaderImg {
-  width: 100%;
-  top: 100px;
+.heroHeaderTitle {
+  color: black;
+  background-color: #fff;
+  border-radius: 7px;
+  margin: 0 0 0 15px;
+  font-weight: 500;
+  font-size: 3em;
+  padding: 10px 5px;
+  width: 40%;
+  text-align: center;
 }
-
+.heroContactUsBtn {
+  width: 150px;
+  border: none;
+  margin: 0 0 0 15px;
+  border-radius: 7px;
+  font-size: 1.5em;
+  padding: 10px 5px;
+}
+.homeHeroAbout {
+  margin: 35px 25px;
+}
+.homeHeroAboutTitle {
+  font-size: 2em;
+  font-weight: 500;
+}
+.homeHeroAboutSubtitle {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 23px;
+  margin: 15px 0;
+}
 .heroOfferItem {
   border: 1px solid grey;
   border-radius: 7px;
