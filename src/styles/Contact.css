@@ -1,0 +1,93 @@
+.contactWrapper {
+}
+.contactHeader {
+}
+.contactHeaderTitle {
+  font-weight: 500;
+  margin: 5px 15px;
+}
+.contactHeaderSubtitle {
+  margin: 5px 20px;
+}
+.contactUsBgImg {
+  width: 100%;
+}
+.contactBody {
+  margin: 20px 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactBodyInfoTitle {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.bodyInfoItemTitle {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.contactBodyInfoItems {
+}
+.contactBodyInfoItem {
+  margin: 20px 0;
+}
+
+.contactBodyForm {
+  display: flex;
+  flex-direction: column;
+}
+.contactBodyFormItem {
+  padding: 0 0 15px 0;
+
+  border-radius: 7px;
+}
+.contactBodyFormName {
+  color: rgb(61, 61, 61);
+  font-size: 16px;
+}
+.contactBodyFormItemInput {
+  border: 0.3px solid grey;
+  margin-top: 3px;
+  border-radius: 7px;
+  width: 300px;
+  height: 40px;
+  padding: 5px 0 5px 10px;
+}
+.contactBodyFormItemInput:hover {
+  cursor: pointer;
+  border: 1px solid darkblue;
+}
+.contactSelectCountryWrapp {
+  text-align: center;
+}
+.contactSelectCountry {
+  padding: 10px 0 10px 5px;
+  border: 0.3px solid grey;
+  border-radius: 7px;
+  width: 100%;
+}
+.contactSelectCountry:hover {
+  border: 0.3px solid darkblue;
+}
+.contactFormBtn {
+  border: 0.3px solid grey;
+  border-radius: 7px;
+  background-color: #fff;
+  font-size: 1em;
+  width: 80%;
+  padding: 5px 0;
+  margin: 10px auto 0;
+}
+.contactFormBtn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(250, 162, 30);
+}
+
+.contactFooterText {
+  margin: 10px 15px;
+  font-weight: 400;
+  font-size: 1.2em;
+}

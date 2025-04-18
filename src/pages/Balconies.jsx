@@ -15,6 +15,23 @@ function Balconies() {
           {translate("balconies.balconiesSubtitle")}
         </p>
       </div>
+      <div className="balconiesBody">
+        <div className="balconiesSlider">Slider will be here</div>
+        <div className="balconiesInfo">
+          <h3 className="balconiesInfoTitle">
+            {translate("balconies.balconiesInfoTitle")}
+          </h3>
+          <p className="balconiesInfoSubtitle">
+            {translate("balconies.balconiesInfoSubtitle")}
+          </p>
+          <p className="balconiesInfoSubtitle1">
+            {translate("balconies.balconiesInfoSubtitle1")}
+          </p>
+          <p className="balconiesInfoSubtitle2">
+            {translate("balconies.balconiesInfoSubtitle2")}
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

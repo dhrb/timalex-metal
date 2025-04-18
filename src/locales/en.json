@@ -44,7 +44,11 @@
 
     "balconies" : {
       "balconiesTitle" : "Custom metal structures for complex architectural façade solutions",
-      "balconiesSubtitle" : "We produce metal balconies for new construction and renovations. Reliable solutions with custom dimensions, design, and technical detailing."
+      "balconiesSubtitle" : "We produce metal balconies for new construction and renovations. Reliable solutions with custom dimensions, design, and technical detailing.",
+      "balconiesInfoTitle" : "Custom-Made Metal Balconies",
+      "balconiesInfoSubtitle" : "Our company specializes in manufacturing metal balconies for various types of properties — from private houses and cottages to multi-storey residential buildings and commercial developments. We collaborate with both developers and private clients, tailoring each design to specific architectural and technical requirements.",
+      "balconiesInfoSubtitle1" : "All balcony systems are built with a focus on safety, durability, and aesthetics. We offer a full range of services — from design to installation — and can also produce balconies without installation, based on customer-provided blueprints or sketches.",
+      "balconiesInfoSubtitle2" : "Thanks to our professional approach and years of experience, we deliver solutions that combine reliability, a modern appearance, and compliance with European quality standards."
     },
     "railings" : {
       "railingsTitle" : "Reliable safety systems for staircases, terraces, and public environments",
@@ -83,6 +87,22 @@
       "marketYearsText" : "Years on the market"
     },
 
+    "contact" : {
+      "contactHeaderTitle" : "Get in Touch",
+      "contactHeaderSubtitle" : "We are open to cooperation and ready to answer all your questions. Here you can find our contact information and leave a request for a callback. Our team will get back to you as soon as possible.",
+      "contactBodyInfoTitle" : "Points of contact:",
+      "contactBodyInfoFirm" : "Timalex-metal",
+      "contactBodyInfoCity" : "Slovakia, Bratislava",
+      "contactBodyInfoPhone" : "Phone",
+      "contactBodyInfoEmail" : "Email",
+      "contactBodySocialLinks" : "Social links",
+      "contactBodyFormFN" : "First name",
+      "contactBodyFormLN" : "Last name",
+      "contactFormBtn" : "Send",
+
+      "contactFooterText" : "We look forward to connecting with you and building a long-term partnership. Thank you for your interest in our company."
+
+    },
 
     "footer" : {
       "footerTitle" : "Timalex-metal",

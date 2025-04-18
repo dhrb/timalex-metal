@@ -43,7 +43,11 @@
 
     "balconies" : {
       "balconiesTitle" : "Kovové konštrukcie na mieru pre náročné fasádne riešenia a architektúru",
-      "balconiesSubtitle" : "Vyrábame kovové balkóny pre novostavby aj rekonštrukcie. Individuálny dizajn, statická spoľahlivosť a kvalitné spracovanie detailov."
+      "balconiesSubtitle" : "Vyrábame kovové balkóny pre novostavby aj rekonštrukcie. Individuálny dizajn, statická spoľahlivosť a kvalitné spracovanie detailov.",
+      "balconiesInfoTitle" : "Kovové balkóny na mieru",
+      "balconiesInfoSubtitle" : "Naša spoločnosť sa špecializuje na výrobu kovových balkónov pre rôzne typy objektov — od rodinných domov a víl až po viacpodlažné obytné budovy a komerčné projekty. Spolupracujeme s developermi aj súkromnými klientmi, pričom prispôsobujeme každý návrh konkrétnym architektonickým a technickým požiadavkám.",
+      "balconiesInfoSubtitle1" : "Všetky balkónové systémy sú navrhnuté s dôrazom na bezpečnosť, odolnosť a estetický vzhľad. Ponúkame kompletný servis — od návrhu až po montáž — a taktiež možnosť výroby balkónov bez montáže podľa výkresov alebo návrhov klienta.",
+      "balconiesInfoSubtitle2" : "Vďaka profesionálnemu prístupu a dlhoročným skúsenostiam poskytujeme riešenia, ktoré spájajú spoľahlivosť, moderný dizajn a súlad s európskymi normami kvality."
     },
     "railings" : {
       "railingsTitle" : "Spoľahlivé bezpečnostné systémy pre schodiská, terasy a verejné priestory",
@@ -80,6 +84,22 @@
       "readyProjectsText" : "Dokončených projektov",
       "monthlyPowerText" : "Ton mesačnej kapacity",
       "marketYearsText" : "Rokov na trhu"
+    },
+
+    "contact" : {
+      "contactHeaderTitle" : "Kontaktujte nás",
+      "contactHeaderSubtitle" : "Sme otvorení spolupráci a pripravení odpovedať na všetky vaše otázky. Tu nájdete naše kontaktné informácie a môžete zanechať žiadosť o spätné volanie. Náš tím sa vám čoskoro ozve.",
+      "contactBodyInfoTitle" : "Kontaktné miesta",
+      "contactBodyInfoFirm" : "Timalex-metal",
+      "contactBodyInfoCity" : "Slovensko, Bratislava",
+      "contactBodyInfoPhone" : "Telefón",
+      "contactBodyInfoEmail" : "E-mail",
+      "contactBodySocialLinks" : "Sociálne odkazy",
+      "contactBodyFormFN" : "Krstné meno",
+      "contactBodyFormLN" : "Priezvisko",
+      "contactFormBtn" : "Odoslať",
+
+      "contactFooterText" : "Tešíme sa na spojenie s vami a na budovanie dlhodobého partnerstva. Ďakujeme za váš záujem o našu spoločnosť."
     },
 
     "footer" : {
