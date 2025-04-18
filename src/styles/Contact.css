@@ -91,3 +91,12 @@
   font-weight: 400;
   font-size: 1.2em;
 }
+
+@media screen and (max-width: 767px) {
+  .contactBody {
+    flex-direction: column;
+  }
+  .contactBodyForm {
+    margin: 15px 0;
+  }
+}

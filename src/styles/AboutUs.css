@@ -1,53 +1,43 @@
-.aboutUsWrapper {
-  padding: 15px 10px;
+.aboutWrapperBg {
+  width: 100%;
 }
 .aboutUsMainInformation {
-  text-align: center;
-}
-.aboutUsCompanyInfo {
-}
-/* .aboutUsVideoWrapper iframe {
-  border-radius: 5px;
-  width: 400px;
-  height: 300px;
-} */
-.aboutUsTextWrapper {
-  margin: auto 0;
-  height: 250px;
-  background: url("./../assets/images/aboutUsBg.jpg") 50% 15% no-repeat;
-}
-.aboutUsCompanyWrapp2 {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: url("./../assets/images/aboutUsBg.jpg") 50% 45% no-repeat;
+  padding: 5px 15px;
 }
 
-.aboutUsCompanyInfoTitle {
-  background-color: #fff;
-  padding: 15px 0;
+.aboutUsCompanyInfo {
+  margin: 10px 0;
 }
-.aboutUsCompanyInfoExperience {
-  padding: 15px 0 0 0;
+.aboutUsCompanyInfoTitle {
+  font-size: 1.5em;
+  margin: 5px 0;
 }
 .aboutUsCompanyInfoText {
-  background-color: #fff;
-  padding: 15px 0 15px 0;
-}
-.aboutUsCompanyInfo h2 {
-  font-size: 22px;
-}
-.aboutUsCompanyInfo p {
-  font-size: 16px;
+  padding: 0 0 0 30px;
+  font-size: 1.2em;
+  line-height: 25px;
 }
 
 .aboutUsSection {
-  margin: 25px auto;
-  padding: 0 0 0 5%;
+  padding: 5px 15px;
+}
+.whatWeDoTitle {
+  font-size: 1.5em;
+}
+.whatWeDoSubtitle {
+  font-size: 1.3em;
+  margin: 5px 0 0 30px;
 }
 .aboutUsListWWD {
-  padding: 15px 5%;
-
+  margin: 10px 0 0 50px;
   list-style-type: none;
+}
+.aboutUsListWWD li {
+  font-size: 1.2em;
+  line-height: 25px;
+}
+
+.aboutQualityNote {
+  font-size: 1.2em;
+  margin: 15px 5px;
 }

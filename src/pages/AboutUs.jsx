@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/aboutus.css";
+import aboutUsBgImg from "../assets/images/aboutUsBg.jpg";
 import { useLang } from "../components/LanguageController";
 import TotalsBlock from "../components/TotalsBlock";
 
@@ -7,38 +8,25 @@ function AboutUs() {
   const { translate } = useLang();
   return (
     <div className="aboutUsWrapper">
+      <img src={aboutUsBgImg} alt="bgImg" className="aboutWrapperBg" />
       <div className="aboutUsMainInformation">
         <div className="aboutUsCompanyInfo">
-          <div className="aboutUsTextWrapper">
-            <h2 className="aboutUsCompanyInfoTitle">
-              {translate("aboutUs.aboutUsCompanyInfoTitle")}
-            </h2>
-            <p className="aboutUsCompanyInfoText">
-              {translate("aboutUs.aboutUsCompanyInfoText")}
-            </p>
-          </div>
-          {/* <div className="aboutUsVideoWrapper">
-            <iframe
-              className="iframeVideo"
-              iframe
-              src="https://www.youtube.com/embed/_LKhKdLLfeM?si=Yc8W7yHeuxlQQ_Aj"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div> */}
+          <h2 className="aboutUsCompanyInfoTitle">
+            {translate("aboutUs.aboutUsCompanyInfoTitle")}
+          </h2>
+          <p className="aboutUsCompanyInfoText">
+            {translate("aboutUs.aboutUsCompanyInfoText")}
+          </p>
         </div>
         <div className="aboutUsCompanyInfo">
-          <h2 className="aboutUsCompanyInfoExperience">
+          <h2 className="aboutUsCompanyInfoTitle">
             {translate("aboutUs.aboutUsCompanyInfoExperience")}
           </h2>
           <p className="aboutUsCompanyInfoText">
             {translate("aboutUs.aboutUsCompanyInfoExperienceText")}
           </p>
         </div>
-        <div className="aboutUsCompanyWrapp2">
+        <div className="aboutUsCompanyInfo">
           <h2 className="aboutUsCompanyInfoTitle">
             {translate("aboutUs.aboutUsCompanyInfoProduction")}
           </h2>
@@ -48,8 +36,10 @@ function AboutUs() {
         </div>
       </div>
       <div className="aboutUsSection">
-        <h2>{translate("aboutUs.whatWeDoTitle")}</h2>
-        <p>{translate("aboutUs.whatWeDoSubtitle")}</p>
+        <h2 className="whatWeDoTitle">{translate("aboutUs.whatWeDoTitle")}</h2>
+        <p className="whatWeDoSubtitle">
+          {translate("aboutUs.whatWeDoSubtitle")}
+        </p>
 
         <ul className="aboutUsListWWD">
           <li>{translate("aboutUs.wwdBalconies")}</li>
@@ -58,11 +48,12 @@ function AboutUs() {
           <li>{translate("aboutUs.wwdFrames")}</li>
           <li>{translate("aboutUs.wwdCustom")}</li>
         </ul>
-
-        <p>{translate("aboutUs.aboutQualityNote")}</p>
         <h1 className="aboutUsImgSlider">Slider will be here</h1>
-      </div>
 
+        <p className="aboutQualityNote">
+          {translate("aboutUs.aboutQualityNote")}
+        </p>
+      </div>
       <TotalsBlock
         readyOrdersText={translate("totalsBlock.readyOrdersText")}
         readyProjectsText={translate("totalsBlock.readyProjectsText")}
