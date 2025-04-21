@@ -3,6 +3,8 @@ import "./../styles/Home.css";
 import { useLang } from "../components/LanguageController";
 import ImageSlider from "../components/ImageSlider";
 import TotalsBlock from "../components/TotalsBlock";
+import ImagesData from "../data/imagesData.jsx";
+
 import homePageBalconImg from "./../assets/images/homePageBalcon.jpg";
 import homePageGateImg from "./../assets/images/homepageGateImg.jpg";
 import homePageRailingsImg from "./../assets/images/homePageRailings.jpg";
@@ -11,7 +13,8 @@ import weldingIcon from "./../assets/images/welding.png";
 
 function Home() {
   const { translate } = useLang();
-  const images = [homePageBalconImg, homePageGateImg, homePageRailingsImg];
+  const images = ImagesData.map((image) => image.image);
+
   return (
     <div className="homeWrapper">
       <div className="homeHero">
@@ -93,7 +96,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <ImageSlider />
+      <ImageSlider images={images} paginationLength={images.length} />
     </div>
   );
 }

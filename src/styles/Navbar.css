@@ -32,6 +32,9 @@
   width: 28px;
   transition: rotate 0.5s;
 }
+.navbarBtnWrapp img:hover {
+  cursor: pointer;
+}
 
 .navbarClosed {
   padding-top: 50px;

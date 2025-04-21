@@ -22,7 +22,6 @@ function Navbar() {
     setMenuCollapsed(!menuCollapsed);
   };
 
-  console.log(language);
   const LanguageToogle = () => {
     return (
       <div className="navbarLanguage">

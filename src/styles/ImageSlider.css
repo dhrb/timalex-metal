@@ -1,23 +1,42 @@
 .imageSliderWrapper {
+  padding: 15px;
+}
+.imageSliderItems {
   display: flex;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+  overflow: scroll;
 }
 .imageSlider {
-  display: flex;
-  width: 100%;
-}
-.imageSliderImg {
   width: 100%;
 }
 
-.imageSliderArrows {
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
+.sliderItemImg {
+  height: 500px;
 }
-.imageSliderArrow {
-  border: none;
-  margin: 5px;
+.imageSliderArrows {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.imageSliderArrows img {
+  width: 50px;
+  border-radius: 30px;
+}
+.sliderArrowBtnLeft {
+  rotate: 180deg;
+}
+
+.imageSliderPagination {
+}
+
+.imageSliderControllerDot {
+  width: 45px;
+  height: 35px;
+  margin: 0 5px;
+  border: 0.3px solid black;
+  border-radius: 7px;
+  background-color: black;
+}
+.imageSliderControllerDot:hover {
+  border: 0.3px solid red;
 }
