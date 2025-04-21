@@ -1,7 +1,39 @@
 .navbarWrapper {
-  border-right: 1px solid grey;
   width: 225px;
   height: 100%;
+  padding-top: 60px;
+  display: flex;
+  border-right: 0.3px solid grey;
+  flex-direction: column;
+  transition: all 0.4s;
+  font-size: 16px;
+}
+.navbarClosed {
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  border-right: 1px solid grey;
+  width: 80px;
+  height: 100%;
+  transition: all 0.4s;
+  font-size: 0px;
+}
+.navbarBtnWrapp {
+  width: 100%;
+  padding: 15px 10px;
+  text-align: right;
+}
+.sideMenuIconOpen {
+  width: 28px;
+  rotate: 180deg;
+  transition: rotate 0.5s;
+}
+.sideMenuIconClosed {
+  width: 28px;
+  transition: rotate 0.5s;
+}
+
+.navbarClosed {
   padding-top: 50px;
 }
 .navbarLogo {
@@ -11,26 +43,44 @@
   width: 100%;
 }
 .navbarLinks {
-  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.navbarLinksClosed {
+  font-size: 0px;
   flex-direction: column;
   justify-content: right;
 }
 
 .navbarLinkItem {
   background-color: #fff;
+  width: 100%;
   color: black;
   display: flex;
   align-items: center;
   padding: 15px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbarLinkActive {
+  background-color: rgba(0, 0, 0, 0.339);
+  width: 100%;
+  color: #fff;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 .navbarLinkItem:hover {
-  color: #fff;
   background-color: rgba(174, 174, 174, 0.348);
+  cursor: pointer;
+  color: #fff;
 }
 .navbarLinkImg {
   width: 20px;
   margin: 0 10px 0 0;
 }
+
 .navbarFirmLinks {
   margin: 25px 0 0;
   text-align: center;
@@ -38,8 +88,17 @@
 
 .navbarLanguage {
   width: 100%;
-  text-align: center;
+  margin: 0 15px 0;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
 }
+
 .languageImg {
   width: 20%;
+  margin: 0 15px 0 0;
+  min-width: 35px;
+}
+.languageImg:hover {
+  cursor: pointer;
 }

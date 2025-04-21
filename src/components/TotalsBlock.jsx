@@ -11,6 +11,7 @@ function TotalsBlock({
   monthlyPowerText,
   marketYearsText,
 }) {
+  console.log(readyOrdersText);
   return (
     <div className="totalsBlockWrapper">
       <div className="totalsBlockItem">

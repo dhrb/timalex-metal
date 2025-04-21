@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./../styles/Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logoImg from "./../assets/images/logoImg.png";
 import enFlagImg from "../assets/images/ukFlag.png";
 import skFlagImg from "../assets/images/skFlag.png";
@@ -11,65 +11,116 @@ import railIcon from "../assets/images/railingIcon.png";
 import gateIcon from "../assets/images/gateIcon.png";
 import aboutIcon from "../assets/images/aboutIcon.png";
 import contactIcon from "../assets/images/contactIcon.png";
+import sideMenuIcon from "../assets/images/sideMenuIcon.png";
 import { useLang } from "./LanguageController";
 
 function Navbar() {
   const { language, switchLanguage, translate } = useLang();
+  const [menuCollapsed, setMenuCollapsed] = useState(true);
+
+  const menuHandeler = () => {
+    setMenuCollapsed(!menuCollapsed);
+  };
+
+  console.log(language);
   const LanguageToogle = () => {
     return (
-      <img
-        onClick={() => switchLanguage()}
-        src={language === "en" ? enFlagImg : skFlagImg}
-        alt=""
-        className="languageImg"
-      />
+      <div className="navbarLanguage">
+        <img
+          onClick={() => switchLanguage()}
+          src={language === "en" ? enFlagImg : skFlagImg}
+          alt=""
+          className="languageImg"
+        />
+        <p>{language == "en" ? "English" : "Slovak"}</p>
+      </div>
     );
   };
 
   return (
-    <div className="navbarWrapper">
+    <div className={menuCollapsed ? "navbarClosed" : "navbarWrapper"}>
       <div className="navbarLogo">
-        <Link to="/" className="navbarLogoLink">
+        <NavLink to="/" className="navbarLogoLink">
           <img src={logoImg} alt="logo" className="navbarLogoImg" />
-        </Link>
+        </NavLink>
+      </div>
+      <div className="navbarBtnWrapp">
+        <img
+          onClick={() => menuHandeler()}
+          className={menuCollapsed ? "sideMenuIconClosed" : "sideMenuIconOpen"}
+          alt=""
+          src={sideMenuIcon}
+        />
       </div>
       <div className="navbarLinks">
-        <Link to="/" className="navbarLinkItem">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "navbarLinkActive" : "navbarLinkItem"
+          }
+        >
           <img src={homeIcon} alt="" className="navbarLinkImg" />
-
-          {translate("header.headerHome")}
-        </Link>
-        <Link to="/catalog" className="navbarLinkItem">
+          {translate(menuCollapsed ? " " : "header.headerHome")}
+        </NavLink>
+        <NavLink
+          to="/catalog"
+          className={({ isActive }) =>
+            isActive ? "navbarLinkActive" : "navbarLinkItem"
+          }
+        >
           <img src={catalogIcon} alt="" className="navbarLinkImg" />
-          {translate("header.headerCatalog")}
-        </Link>
-        <Link to="/balconies" className="navbarLinkItem">
+          {translate(menuCollapsed ? " " : "header.headerCatalog")}
+        </NavLink>
+        <NavLink
+          to="/balconies"
+          className={({ isActive }) =>
+            isActive ? "navbarLinkActive" : "navbarLinkItem"
+          }
+        >
           <img src={balconyIcon} alt="" className="navbarLinkImg" />
-          {translate("header.headerBalconies")}
-        </Link>
-        <Link to="/railings" className="navbarLinkItem">
+          {translate(menuCollapsed ? " " : "header.headerBalconies")}
+        </NavLink>
+        <NavLink
+          to="/railings"
+          className={({ isActive }) =>
+            isActive ? "navbarLinkActive" : "navbarLinkItem"
+          }
+        >
           <img src={railIcon} alt="" className="navbarLinkImg" />
-          {translate("header.headerRailings")}
-        </Link>
-        <Link to="/gates" className="navbarLinkItem">
+          {translate(menuCollapsed ? " " : "header.headerRailings")}
+        </NavLink>
+        <NavLink
+          to="/gates"
+          className={({ isActive }) =>
+            isActive ? "navbarLinkActive" : "navbarLinkItem"
+          }
+        >
           <img src={gateIcon} alt="" className="navbarLinkImg" />
-          {translate("header.headerGates")}
-        </Link>
+          {translate(menuCollapsed ? " " : "header.headerGates")}
+        </NavLink>
       </div>
       <div className="header.navbarLinkItem">
-        <Link to="/aboutUs" className="navbarLinkItem">
+        <NavLink
+          to="/aboutUs"
+          className={({ isActive }) =>
+            isActive ? "navbarLinkActive" : "navbarLinkItem"
+          }
+        >
           <img src={aboutIcon} alt="" className="navbarLinkImg" />
-          {translate("header.headerAboutUs")}
-        </Link>
-        <Link to="/contact" className="navbarLinkItem">
+          {translate(menuCollapsed ? " " : "header.headerAboutUs")}
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "navbarLinkActive" : "navbarLinkItem"
+          }
+        >
           <img src={contactIcon} alt="" className="navbarLinkImg" />
 
-          {translate("header.headerContact")}
-        </Link>
+          {translate(menuCollapsed ? " " : "header.headerContact")}
+        </NavLink>
       </div>
-      <div className="navbarLanguage">
-        <LanguageToogle />
-      </div>
+      <LanguageToogle />
     </div>
   );
 }

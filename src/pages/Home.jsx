@@ -16,13 +16,16 @@ function Home() {
     <div className="homeWrapper">
       <div className="homeHero">
         <h3 className="heroHeaderTitle">{translate("home.homeHeroTitle")}</h3>
-        <button className="heroContactUsBtn">
-          {translate("home.heroContactUsBtn")}
-        </button>
-        <button className="heroContactUsBtn">
-          {translate("home.heroCatalogBtn")}
-        </button>
+        <div className="testDiv">
+          <button className="heroContactUsBtn">
+            {translate("home.heroContactUsBtn")}
+          </button>
+          <button className="heroContactUsBtn">
+            {translate("home.heroCatalogBtn")}
+          </button>
+        </div>
       </div>
+
       <div className="homeHeroAbout">
         <h2 className="homeHeroAboutTitle">
           {translate("home.homeHeroAboutTitle")}
@@ -31,6 +34,7 @@ function Home() {
           {translate("home.homeHeroAboutSubtitle")}
         </p>
       </div>
+
       <div className="homeHeroAdvantages">
         <p className="homeHeroAdvantagesText">
           {translate("home.homeHeroAdvantagesText1")}
@@ -42,6 +46,12 @@ function Home() {
           {translate("home.homeHeroAdvantagesText3")}
         </p>
       </div>
+      <TotalsBlock
+        readyOrdersText={translate("totalsBlock.readyOrdersText")}
+        readyProjectsText={translate("totalsBlock.readyProjectsText")}
+        monthlyPowerText={translate("totalsBlock.monthlyPowerText")}
+        marketYearsText={translate("totalsBlock.marketYearsText")}
+      />
       <div className="homeHeroOffers">
         <div className="homeHeroOfferItems">
           <div className="heroOfferItem">
@@ -71,6 +81,7 @@ function Home() {
               {translate("home.homeHeroOfferSubtitleCard3")}
             </p>
           </div>
+
           <div className="heroOfferItem">
             <img src={weldingIcon} alt="" className="offerItemImg" />
             <h4 className="offerItemTitle">
@@ -82,9 +93,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="homeTotalsBlock">
-        <TotalsBlock />
-      </div>
+      <ImageSlider />
     </div>
   );
 }
