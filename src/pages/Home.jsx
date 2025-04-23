@@ -49,12 +49,14 @@ function Home() {
           {translate("home.homeHeroAdvantagesText3")}
         </p>
       </div>
-      <TotalsBlock
+      <ImageSlider images={images} paginationLength={images.length} />
+
+      {/* <TotalsBlock
         readyOrdersText={translate("totalsBlock.readyOrdersText")}
         readyProjectsText={translate("totalsBlock.readyProjectsText")}
         monthlyPowerText={translate("totalsBlock.monthlyPowerText")}
         marketYearsText={translate("totalsBlock.marketYearsText")}
-      />
+      /> */}
       <div className="homeHeroOffers">
         <div className="homeHeroOfferItems">
           <div className="heroOfferItem">
@@ -84,19 +86,8 @@ function Home() {
               {translate("home.homeHeroOfferSubtitleCard3")}
             </p>
           </div>
-
-          <div className="heroOfferItem">
-            <img src={weldingIcon} alt="" className="offerItemImg" />
-            <h4 className="offerItemTitle">
-              {translate("home.homeHeroOfferTitleCard4")}
-            </h4>
-            <p className="offerItemSubtitle">
-              {translate("home.homeHeroOfferSubtitleCard4")}
-            </p>
-          </div>
         </div>
       </div>
-      <ImageSlider images={images} paginationLength={images.length} />
     </div>
   );
 }

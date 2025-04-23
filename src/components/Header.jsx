@@ -10,6 +10,7 @@ function Header() {
         📩 office@timalex.sk
       </a>
       <a href="tel:+421918123153" className="headerLink">
+        {" "}
         📞 +421918123153
       </a>
       <div className="headerSocialLinks">
