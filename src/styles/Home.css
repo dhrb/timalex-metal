@@ -51,7 +51,7 @@
   font-size: 1.2em;
   font-weight: 300;
   line-height: 23px;
-  margin: 15px 0;
+  margin: 15px 0 0 0;
 }
 .heroOfferItem {
   border: 1px solid grey;
@@ -71,4 +71,20 @@
 
 .offerItemImg {
   width: 100px;
+}
+
+.homeHeroAdvantages {
+  margin: 0px 25px 15px;
+}
+.homeHeroAdvantagesText {
+  font-size: 1.2em;
+  line-height: 23px;
+  font-weight: 300;
+}
+
+.categoryCardsWrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
 }

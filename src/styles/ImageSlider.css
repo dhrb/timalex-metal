@@ -16,6 +16,8 @@
   border-radius: 7px;
   width: 100%;
   transition: opacity 0.5s ease-in-out;
+  box-shadow: -3px 3px 5px darkgray;
+  margin: 10px;
 }
 
 .imageSliderArrows {
@@ -24,15 +26,13 @@
   justify-content: center;
   padding: 10px 50px;
   width: 100%;
-  transition: opacity 0.5s ease-in-out;
 }
 .sliderItemImg.active {
   opacity: 1;
-  z-index: 1;
 }
 .sliderItemImg.inactive {
-  opacity: 0;
   z-index: 0;
+  opacity: 0.3;
 }
 
 .sliderArrowBtnLeft {
@@ -47,20 +47,22 @@
   display: flex;
   width: 100%;
   overflow: scroll;
-  padding: 0 15px;
+  margin: 0 15px;
+}
+.imageSliderPagination:hover {
 }
 .imageSliderPagination.active {
   opacity: 1;
 }
 .imageSliderPagination.inactive {
-  opacity: 0;
 }
 
 .imageSliderControllerDot {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 7px;
   margin: 0 5px;
+  cursor: pointer;
 }
 .imageSliderControllerDot.active {
   background-color: gray;
@@ -69,4 +71,5 @@
 }
 .imageSliderControllerDot:hover {
   border: 1px solid black;
+  cursor: pointer;
 }
