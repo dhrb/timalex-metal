@@ -14,12 +14,13 @@
   background-color: #fff;
   border-radius: 7px;
   font-weight: 500;
-  font-size: 3em;
+  font-size: 2em;
   padding: 10px 5px;
   width: 40%;
   text-align: center;
 }
-.testDiv {
+.heroHeaderBtns {
+  width: 40%;
   display: flex;
   margin: 15px 0;
 }
@@ -53,22 +54,6 @@
   line-height: 23px;
   margin: 15px 0 0 0;
 }
-.heroOfferItem {
-  border: 1px solid grey;
-  border-radius: 7px;
-  padding: 15px;
-  margin: 0 10px;
-  width: 100%;
-  text-align: center;
-}
-.heroOfferItem:hover {
-  border: 1px solid red;
-  cursor: pointer;
-}
-.homeHeroOfferItems {
-  display: flex;
-}
-
 .offerItemImg {
   width: 100px;
 }
@@ -78,13 +63,58 @@
 }
 .homeHeroAdvantagesText {
   font-size: 1.2em;
-  line-height: 23px;
   font-weight: 300;
 }
-
 .categoryCardsWrapper {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: right;
+}
+.homeHeroStepsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.homeHeroStepsWrapperTitle {
+  padding: 30px 0 15px 30px;
+  font-weight: 600;
+}
+
+.homeHeroSteps {
+  padding: 0 25px;
+}
+.homeHeroStepsItem {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.homeHeroStepsTitle {
+  font-size: 1.5rem;
+}
+.homeHeroStepsSubtitle {
+  padding: 15px 5px 0;
+  font-size: 18px;
+}
+.homeHeroStepImg {
+  max-width: 50%;
+  border-radius: 50px;
+  border: 1px solid gray;
+  padding: 6px;
+}
+
+.homeContactForm {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.homeContactFormSummary {
+  text-align: center;
+  padding: 0 100px;
+}
+
+@media screen and (max-width: 885px) {
+  .categoryCardsWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

@@ -5,8 +5,10 @@ import categoryCardArrow from "./../assets/images/cardsArrow.png";
 function CategoryCard({ img, title, subtitle, link }) {
   return (
     <div className="categoryCard">
-      <img src={img} alt="categoryCardImg" className="categoryCardImg" />
-      <p className="categorySubtitle">{subtitle}</p>
+      <div className="categoryCardMain">
+        <img src={img} alt="categoryCardImg" className="categoryCardImg" />
+        <p className="categorySubtitle">{subtitle}</p>
+      </div>
       <a href={link} className="categoryCardFooter">
         <h3 className="categoryTitle">{title}</h3>
         <img

@@ -17,47 +17,47 @@ import gates1 from "./../assets/imagesData/gates1.jpg";
 import gates2 from "./../assets/imagesData/gates2.png";
 
 const imagesData = [
-  { image: balconies1, category: "balcons", title: "Lorem ipsum dolor" },
-  { image: balconies2, category: "balcons", title: "Lorem ipsum dolor" },
-  { image: balconies3, category: "balcons", title: "Lorem ipsum dolor" },
-  { image: balconies4, category: "balcons", title: "Lorem ipsum dolor" },
-  { image: balconies5, category: "balcons", title: "Lorem ipsum dolor" },
-  { image: balconies6, category: "balcons", title: "Lorem ipsum dolor" },
-  { image: balconies7, category: "balcons", title: "Lorem ipsum dolor" },
-  { image: balconies9, category: "balcons", title: "Lorem ipsum dolor" },
-  { image: balconies10, category: "balcons", title: "Lorem ipsum dolor" },
+  { image: balconies1, category: "balcons", title: "Balconies sample 1" },
+  { image: balconies2, category: "balcons", title: "Balconies sample 2" },
+  { image: balconies3, category: "balcons", title: "Balconies sample 3" },
+  { image: balconies4, category: "balcons", title: "Balconies sample 4" },
+  { image: balconies5, category: "balcons", title: "Balconies sample 5" },
+  { image: balconies6, category: "balcons", title: "Balconies sample 6" },
+  { image: balconies7, category: "balcons", title: "Balconies sample 7" },
+  { image: balconies9, category: "balcons", title: "Balconies sample 8" },
+  { image: balconies10, category: "balcons", title: "Balconies sample 9" },
   {
     image: constructions1,
     category: "constructions",
-    title: "Lorem ipsum dolor",
+    title: "Construction sample 1",
   },
   {
     image: constructions2,
     category: "constructions",
-    title: "Lorem ipsum dolor",
+    title: "Construction sample 2",
   },
   {
     image: constructions3,
     category: "constructions",
-    title: "Lorem ipsum dolor",
+    title: "Construction sample 3",
   },
   {
     image: constructions4,
     category: "constructions",
-    title: "Lorem ipsum dolor",
+    title: "Construction sample 4",
   },
   {
     image: constructions5,
     category: "constructions",
-    title: "Lorem ipsum dolor",
+    title: "Construction sample 5",
   },
   {
     image: constructions6,
     category: "constructions",
-    title: "Lorem ipsum dolor",
+    title: "Construction sample 6",
   },
-  { image: gates1, category: "gates", title: "Lorem ipsum dolor" },
-  { image: gates2, category: "gates", title: "Lorem ipsum dolor" },
+  { image: gates1, category: "gates", title: "Gates sample 1" },
+  { image: gates2, category: "gates", title: "Gates sample 2" },
 ];
 
 export default imagesData;

@@ -6,6 +6,15 @@
   flex-direction: column;
   transition: all 0.2s ease-in-out;
 }
+.categoryCard:hover .child {
+  padding: 20px;
+}
+.categoryCardMain:hover {
+}
+.parent:hover .child {
+  padding: 20px;
+}
+
 .categoryCardImg {
   width: 100%;
   height: 230px;
@@ -16,9 +25,7 @@
   opacity: 0.3;
   transform: translateY(5px);
 }
-.categoryCard .categorySubtitle:hover {
-  transform: translateY(-15px);
-}
+
 .categoryCardFooter {
   background-color: #9a9a9a8a;
   color: black;
@@ -30,10 +37,15 @@
 }
 
 .categoryCardFooter:hover {
-  color: red;
+  background-color: #c1c1c18a;
+  text-shadow: #9a9a9a8a 10px 0 10px;
+  color: #fff;
   padding: 3px 15px 0 0;
 }
 .categoryCardArrow {
   width: 35px;
   margin: 0 0 0 15px;
+}
+
+@media screen and (max-width: 765px) {
 }

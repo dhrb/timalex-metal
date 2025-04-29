@@ -19,7 +19,7 @@ function Header() {
           target="_blank"
           className="headerLink"
         >
-          <img img className="headerLinkImg" src={whatsappIcon} />
+          <img className="headerLinkImg" src={whatsappIcon} />
         </a>
         <a
           href="https://www.linkedin.com/in/alexsimonov-timalex/"

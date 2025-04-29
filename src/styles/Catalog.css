@@ -1,5 +1,6 @@
 .catalogWrapper {
   padding: 10px 10px 20px;
+  width: 100%;
 }
 .catalogHeaderTitle {
   font-size: 2em;
@@ -24,10 +25,13 @@
 }
 .galleryImg {
   width: 300px;
-  transition: width 0.3s ease-in-out;
+  height: 300px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 7px;
 }
 .galleryImg:hover {
-  width: 320px;
+  width: 350px;
+  height: 350px;
   cursor: crosshair;
 }
 
@@ -51,4 +55,14 @@
   padding: 10px 20px;
   margin: 0 15px 0 0;
   border: 1px solid green;
+}
+
+@media screen and (max-width: 765px) {
+  .imagesGallerySection {
+    justify-content: center;
+  }
+  .galleryImg {
+    width: 80%;
+    height: 400px;
+  }
 }

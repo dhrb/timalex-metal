@@ -6,12 +6,12 @@ import shakehandsIcon from "./../assets/images/shakehandsIcon.png";
 import goalIcon from "./../assets/images/goalIcon.png";
 
 function TotalsBlock({
+  //props come from translate(totalsBlock. ...)
   readyOrdersText,
   readyProjectsText,
   monthlyPowerText,
   marketYearsText,
 }) {
-  console.log(readyOrdersText);
   return (
     <div className="totalsBlockWrapper">
       <div className="totalsBlockItem">

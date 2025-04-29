@@ -2,8 +2,9 @@ import React from "react";
 import "../styles/contact.css";
 import contactUsBgImg from "./../assets/images/contactUsBgImg.jpg";
 import { useLang } from "../components/LanguageController";
+import ContactForm from "../components/ContactForm";
 
-function Contact() {
+function Contact({ isFormSent, setIsFormSent }) {
   const { translate } = useLang();
 
   return (
@@ -21,107 +22,7 @@ function Contact() {
           {translate("contact.contactHeaderSubtitle")}
         </p>
       </div>
-      <div className="contactBody">
-        <div className="contactBodyInfo">
-          <h3 className="contactBodyInfoTitle">
-            {translate("contact.contactBodyInfoTitle")}
-          </h3>
-          <div className="contactBodyInfoItems">
-            <div className="contactBodyInfoItem">
-              <h3 className="bodyInfoItemTitle">
-                {translate("contact.contactBodyInfoFirm")}
-              </h3>
-              <a className="bodyInfoItemTitle">
-                {translate("contact.contactBodyInfoCity")}
-              </a>
-            </div>
-            <div className="contactBodyInfoItem">
-              <h3 className="bodyInfoItemTitle">
-                {translate("contact.contactBodyInfoPhone")}
-              </h3>
-              <a className="bodyInfoItemTitle">+421 000 000 00</a>
-            </div>
-            <div className="contactBodyInfoItem">
-              <h3 className="bodyInfoItemTitle">
-                {translate("contact.contactBodyInfoEmail")}
-              </h3>
-              <a className="bodyInfoItemTitle">timalex@timales.sk</a>
-            </div>
-            <div className="contactBodyInfoItem">
-              <h3 className="bodyInfoItemTitle">
-                {translate("contact.contactBodySocialLinks")}
-              </h3>
-              <a className="bodyInfoItemTitle">img whatsapp linkedin</a>
-            </div>
-          </div>
-        </div>
-        <form className="contactBodyForm">
-          <div className="contactBodyFormItem">
-            <p className="contactBodyFormName">
-              {translate("contact.contactBodyFormFN")}
-            </p>
-            <input
-              className="contactBodyFormItemInput"
-              type="firstName"
-              id="firstName"
-              name="firstName"
-            />
-          </div>
-          <div className="contactBodyFormItem">
-            <p className="contactBodyFormName">
-              {translate("contact.contactBodyFormLN")}
-            </p>
-            <input
-              className="contactBodyFormItemInput"
-              type="lastName"
-              id="lastName"
-              name="lastName"
-            />
-          </div>
-          <div className="contactBodyFormItem">
-            <p className="contactBodyFormName">
-              {translate("contact.contactBodyInfoEmail")}
-            </p>
-            <input
-              className="contactBodyFormItemInput"
-              type="Email"
-              id="Email"
-              name="Email"
-            />
-          </div>
-          <div className="contactBodyFormItem">
-            <p className="contactBodyFormName">
-              {translate("contact.contactBodyInfoPhone")}
-            </p>
-            <input
-              className="contactBodyFormItemInput"
-              type="phone"
-              id="phone"
-              name="phone"
-            />
-          </div>
-          <div className="contactSelectCountryWrapp">
-            <select
-              className="contactSelectCountry"
-              name="countries"
-              id="countries"
-            >
-              <option value="Slovakia" className="contactSelectCountryName">
-                Slovakia
-              </option>
-              <option value="Germany" className="contactSelectCountryName">
-                Germany
-              </option>
-              <option value="Holland" className="contactSelectCountryName">
-                Holland
-              </option>
-            </select>
-          </div>
-          <button className="contactFormBtn">
-            {translate("contact.contactFormBtn")}
-          </button>
-        </form>
-      </div>
+      <ContactForm setIsFormSent={setIsFormSent} isFormSent={isFormSent} />
       <div className="contactFooter">
         <h3 className="contactFooterText">
           {translate("contact.contactFooterText")}

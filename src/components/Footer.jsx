@@ -2,6 +2,7 @@ import React from "react";
 import "./../styles/Footer.css";
 import logoImg from "./../assets/images/logoImg.png";
 import { useLang } from "../components/LanguageController";
+import { useLocation, NavLink } from "react-router-dom";
 import linkedinIcon from "./../assets/images/linkedinIcon.png";
 import whatsappIcon from "./../assets/images/whatsappIcon.png";
 import sendIcon from "./../assets/images/sendIcon.png";
@@ -18,6 +19,64 @@ function Footer() {
             <p className="footerSubtitle">
               {translate("footer.footerSubtitle")}
             </p>
+          </div>
+          <div className="footerLogoNav">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
+              }
+              to="/"
+            >
+              {translate("header.headerHome")}
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
+              }
+              to="/catalog"
+            >
+              {translate("header.headerCatalog")}
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
+              }
+              to="/balconies"
+            >
+              {translate("header.headerBalconies")}
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
+              }
+              to="/railings"
+            >
+              {translate("header.headerRailings")}
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
+              }
+              to="/gates"
+            >
+              {translate("header.headerGates")}
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
+              }
+              to="/aboutUs"
+            >
+              {translate("header.headerAboutUs")}
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
+              }
+              to="/contact"
+            >
+              {translate("header.headerContact")}
+            </NavLink>
           </div>
         </div>
         <div className="footerMainInfo">

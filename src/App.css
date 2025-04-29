@@ -1,8 +1,9 @@
 .appWrapper {
   display: flex;
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1180px;
   width: 100%;
+  scroll-behavior: smooth;
 }
 .appNav {
 }
@@ -15,4 +16,43 @@
 }
 .appRouter {
   width: 100%;
+}
+
+.cookieBannerWrapper {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 80vw;
+  bottom: 1%;
+  left: 10%;
+  background-color: #2b373be3;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 100;
+}
+.cookieBannerText {
+  width: 70%;
+}
+.cookieBannersButtons {
+  margin: 15px 0 0 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.cookieBannerBtn {
+  padding: 7px 18px;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cookieBannerBtn:hover {
+  text-decoration: underline;
+  background-color: #c4c4c4;
+  cursor: pointer;
 }

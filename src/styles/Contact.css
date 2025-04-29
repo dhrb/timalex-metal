@@ -19,6 +19,9 @@
   justify-content: space-around;
   align-items: center;
 }
+.contactBodyInfo {
+  width: 100%;
+}
 .contactBodyInfoTitle {
   font-size: 1.3em;
   font-weight: 500;
@@ -28,8 +31,6 @@
   font-weight: 400;
 }
 
-.contactBodyInfoItems {
-}
 .contactBodyInfoItem {
   margin: 20px 0;
 }
@@ -85,13 +86,17 @@
   color: #fff;
   background-color: rgb(250, 162, 30);
 }
-
 .contactFooterText {
   margin: 10px 15px;
   font-weight: 400;
   font-size: 1.2em;
 }
-
+.inputError {
+  border: 1px solid red;
+}
+.formSentMessage {
+  text-align: center;
+}
 @media screen and (max-width: 767px) {
   .contactBody {
     flex-direction: column;

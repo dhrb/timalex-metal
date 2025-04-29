@@ -23,14 +23,16 @@
       
       
       "homeHeroOfferTitleCard1" : "Metal products",
-      "homeHeroOfferTitleCard2" : "Metal frames",
-      "homeHeroOfferTitleCard3" : "Building frames",
-      "homeHeroOfferTitleCard4" : "Team of professionals",
 
-      "homeHeroOfferSubtitleCard1" : "From small to large solutions",
-      "homeHeroOfferSubtitleCard2" : "Individual orders of any complexity for buildings and structures",
-      "homeHeroOfferSubtitleCard3" : "A budgetary solution to the problem of modular space production.",
-      "homeHeroOfferSubtitleCard4" : "Having the necessary skills, we easily perform the assigned tasks."
+      "homeWorkSectionTitle": "How We Work",
+      "homeHeroStep1Title": "Consultation & Project Estimate",
+      "homeHeroStep1Subtitle": "We carefully study your needs, technical requirements, and design preferences to prepare a fully customized project proposal that fits your vision, budget, and timeline.",
+      "homeHeroStep2Title": "Agreement Signing",
+      "homeHeroStep2Subtitle": "We formalize every important detail through a clear and comprehensive agreement, ensuring mutual understanding, transparency, and a foundation for a smooth and trusted collaboration.",
+      "homeHeroStep3Title": "Production & Installation",
+      "homeHeroStep3Subtitle": "Our expert team manufactures each component using top-grade materials and cutting-edge technologies, followed by professional on-site installation with strict quality and safety compliance.",
+      "homeHeroStep4Title": "Project Handover",
+      "homeHeroStep4Subtitle": "After a final thorough inspection, we hand over the completed project, ensuring everything meets the agreed standards and leaving you completely satisfied with the final result."
     },
     
     "catalog" : {
@@ -100,9 +102,9 @@
       "contactBodyFormFN" : "First name",
       "contactBodyFormLN" : "Last name",
       "contactFormBtn" : "Send",
-
-      "contactFooterText" : "We look forward to connecting with you and building a long-term partnership. Thank you for your interest in our company."
-
+      "contactLoadingBtn" : "Sending your information...",
+      "contactFooterText" : "We look forward to connecting with you and building a long-term partnership. Thank you for your interest in our company.",
+      "formReceivedText" : "Thank you for your submission. We will process it as soon as possible. A duplicate submission is not required, as the form has already been successfully submitted from this device."
     },
 
     "footer" : {

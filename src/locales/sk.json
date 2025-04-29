@@ -20,16 +20,15 @@
       "homeHeroAdvantagesText1" : "V oblasti kovových konštrukcií pôsobíme už viac ako 30 rokov a dodávame spoľahlivé a funkčné riešenia pre súkromné aj komerčné projekty. Špecializujeme sa na brány, balkóny, zábradlia, oceľové rámy a individuálne konštrukcie podľa požiadaviek zákazníka.",
       "homeHeroAdvantagesText2" : "Náš tím tvoria skúsení majstri, inžinieri a montážnici, ktorí dokonale ovládajú svoje remeslo. Každý projekt realizujeme s dôrazom na kvalitu, presnosť a bezpečnostné štandardy.",
       "homeHeroAdvantagesText3" : "Disponujeme vlastnou výrobou, moderným vybavením a overenými technológiami, ktoré nám umožňujú realizovať aj tie najnáročnejšie technické riešenia — načas a bez kompromisov.",
-
-      "homeHeroOfferTitleCard1" : "Kovové výrobky",
-      "homeHeroOfferTitleCard2" : "Kovové rámy",
-      "homeHeroOfferTitleCard3" : "Stavebné rámy",
-      "homeHeroOfferTitleCard4" : "Tím profesionálov",
-
-      "homeHeroOfferSubtitleCard1" : "Od malých až po veľké riešenia",
-      "homeHeroOfferSubtitleCard2" : "Jednotlivé zákazky akejkoľvek zložitosti pre budovy a stavby",
-      "homeHeroOfferSubtitleCard3" : "Rozpočtové riešenie problému výroby modulárnych priestorov.",
-      "homeHeroOfferSubtitleCard4" : "S potrebnými zručnosťami ľahko vykonávame pridelené úlohy."
+      "homeWorkSectionTitle": "Ako pracujeme",
+      "homeHeroStep1Title": "Konzultácia a odhad projektu",
+      "homeHeroStep1Subtitle": "Analyzujeme vaše potreby a pripravíme individuálnu projektovú ponuku.",
+      "homeHeroStep2Title": "Podpis zmluvy",
+      "homeHeroStep2Subtitle": "Formalizujeme všetky detaily pre jasnú a spoľahlivú spoluprácu.",
+      "homeHeroStep3Title": "Výroba a montáž",
+      "homeHeroStep3Subtitle": "Vysokokvalitná výroba a profesionálna inštalácia priamo na mieste.",
+      "homeHeroStep4Title": "Odovzdanie projektu",
+      "homeHeroStep4Subtitle": "Záverečná kontrola a odovzdanie projektu k úplnej spokojnosti zákazníka."
     },
 
     "catalog" : {
@@ -99,8 +98,8 @@
       "contactBodyFormFN" : "Krstné meno",
       "contactBodyFormLN" : "Priezvisko",
       "contactFormBtn" : "Odoslať",
-
-      "contactFooterText" : "Tešíme sa na spojenie s vami a na budovanie dlhodobého partnerstva. Ďakujeme za váš záujem o našu spoločnosť."
+      "contactFooterText" : "Tešíme sa na spojenie s vami a na budovanie dlhodobého partnerstva. Ďakujeme za váš záujem o našu spoločnosť.",
+      "formReceivedText" : "Ďakujeme za vašu žiadosť. Budeme ju spracovávať čo najskôr. Opätovné odoslanie nie je potrebné, pretože formulár už bol úspešne odoslaný z tohto zariadenia."
     },
 
     "footer" : {

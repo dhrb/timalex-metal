@@ -4,13 +4,16 @@ import { useLang } from "../components/LanguageController";
 import ImageSlider from "../components/ImageSlider";
 import TotalsBlock from "../components/TotalsBlock";
 import ImagesData from "../data/imagesData.jsx";
+import CategoryCard from "../components/CategoryCard.jsx";
 
 import homePageBalconImg from "./../assets/images/homePageBalcon.jpg";
 import homePageGateImg from "./../assets/images/homepageGateImg.jpg";
 import homePageRailingsImg from "./../assets/images/homePageRailings.jpg";
-import homeHeroBgImage from "./../assets/images/homeHeroBgImage.jpg";
-import weldingIcon from "./../assets/images/welding.png";
-import CategoryCard from "../components/CategoryCard.jsx";
+import planningStepImg from "./../assets/images/planningStepImg.jpeg";
+import offeringStepImg from "./../assets/images/offeringStepImg.jpeg";
+import workersWorkImg from "./../assets/images/workersWorkImg.jpeg";
+import finishStepImg from "./../assets/images/finishStepImg.jpeg";
+import ContactForm from "../components/ContactForm.jsx";
 
 ("​Компания BMP Tornado специализируется на изготовлении и установке балконов, предлагая широкий спектр услуг, включая остекление, утепление и отделку. Их продукция отличается высоким качеством и долговечностью, благодаря использованию современных материалов и технологий. Опытные специалисты компании обеспечивают индивидуальный подход к каждому проекту, учитывая пожелания клиента и особенности здания. BMP Tornado гарантирует надежность и эстетичность своих балконов, создавая комфортное пространство для отдыха и повседневной жизни.​");
 
@@ -22,7 +25,7 @@ function Home() {
     <div className="homeWrapper">
       <div className="homeHero">
         <h3 className="heroHeaderTitle">{translate("home.homeHeroTitle")}</h3>
-        <div className="testDiv">
+        <div className="heroHeaderBtns">
           <button className="heroContactUsBtn">
             {translate("home.heroContactUsBtn")}
           </button>
@@ -48,13 +51,13 @@ function Home() {
         />
         <CategoryCard
           img={homePageRailingsImg}
-          title={"Balconies"}
+          title={"Railings"}
           subtitle={"Lorem ipsum dolor sit"}
           link={"/railings"}
         />
         <CategoryCard
           img={homePageGateImg}
-          title={"Balconies"}
+          title={"Gates"}
           subtitle={"Lorem ipsum dolor sit"}
           link={"/gates"}
         />
@@ -71,42 +74,78 @@ function Home() {
         </p>
       </div>
       <ImageSlider images={images} paginationLength={images.length} />
-      {/* <TotalsBlock
-        readyOrdersText={translate("totalsBlock.readyOrdersText")}
-        readyProjectsText={translate("totalsBlock.readyProjectsText")}
-        monthlyPowerText={translate("totalsBlock.monthlyPowerText")}
-        marketYearsText={translate("totalsBlock.marketYearsText")}
-      /> */}
-      <div className="homeHeroOffers">
-        <div className="homeHeroOfferItems">
-          <div className="heroOfferItem">
-            <img src={weldingIcon} alt="" className="offerItemImg" />
-            <h4 className="offerItemTitle">
-              {translate("home.homeHeroOfferTitleCard1")}
-            </h4>
-            <p className="offerItemSubtitle">
-              {translate("home.homeHeroOfferSubtitleCard1")}
-            </p>
+
+      <div className="homeHeroStepsWrapper">
+        <div className="homeHeroStepsWrapperHead">
+          <h1 className="homeHeroStepsWrapperTitle">
+            {translate("home.homeWorkSectionTitle")}
+          </h1>
+        </div>
+
+        <div className="homeHeroSteps">
+          <div className="homeHeroStepsItem">
+            <div className="homeHeroStepsItemText">
+              <h3 className="homeHeroStepsTitle">
+                {translate("home.homeHeroStep1Title")}
+              </h3>
+              <p className="homeHeroStepsSubtitle">
+                {translate("home.homeHeroStep1Subtitle")}
+              </p>
+            </div>
+            <img src={offeringStepImg} alt="" className="homeHeroStepImg" />
           </div>
-          <div className="heroOfferItem">
-            <img src={weldingIcon} alt="" className="offerItemImg" />
-            зробить бг
-            <h4 className="offerItemTitle">
-              {translate("home.homeHeroOfferTitleCard2")}
-            </h4>
-            <p className="offerItemSubtitle">
-              {translate("home.homeHeroOfferSubtitleCard2")}
-            </p>
+          <div className="homeHeroStepsItem">
+            <img src={planningStepImg} alt="" className="homeHeroStepImg" />
+            <div className="homeHeroStepsItemText">
+              <h3 className="homeHeroStepsTitle">
+                {translate("home.homeHeroStep2Title")}
+              </h3>
+              <p className="homeHeroStepsSubtitle">
+                {translate("home.homeHeroStep2Subtitle")}
+              </p>
+            </div>
           </div>
-          <div className="heroOfferItem">
-            <img src={weldingIcon} alt="" className="offerItemImg" />
-            <h4 className="offerItemTitle">
-              {translate("home.homeHeroOfferTitleCard3")}
-            </h4>
-            <p className="offerItemSubtitle">
-              {translate("home.homeHeroOfferSubtitleCard3")}
-            </p>
+          <div className="homeHeroStepsItem">
+            <div className="homeHeroStepsItemText">
+              <h3 className="homeHeroStep3Title">
+                {translate("home.homeHeroStep3Title")}
+              </h3>
+              <p className="homeHeroStepsSubtitle">
+                {translate("home.homeHeroStep3Subtitle")}
+              </p>
+            </div>
+
+            <img src={workersWorkImg} alt="" className="homeHeroStepImg" />
           </div>
+          <div className="homeHeroStepsItem">
+            <img src={finishStepImg} alt="" className="homeHeroStepImg" />
+            <div className="homeHeroStepsItemText">
+              <h3 className="homeHeroStepsTitle">
+                {translate("home.homeHeroStep4Title")}
+              </h3>
+              <p className="homeHeroStepsSubtitle">
+                {translate("home.homeHeroStep4Subtitle")}
+              </p>
+            </div>
+          </div>
+          <TotalsBlock
+            readyOrdersText={translate("totalsBlock.readyOrdersText")}
+            readyProjectsText={translate("totalsBlock.readyProjectsText")}
+            monthlyPowerText={translate("totalsBlock.monthlyPowerText")}
+            marketYearsText={translate("totalsBlock.marketYearsText")}
+          />
+        </div>
+        <div className="homeContactForm">
+          <h2 className="homeContactFormTitle">Get in Touch with Us</h2>
+          <p className="homeContactFormSubtitle">
+            Have questions or ready to start your project? We're here to help —
+            reach out today.
+          </p>
+          <ContactForm />
+          <p className="homeContactFormSummary">
+            Find our contact details below or send us a quick message through
+            the form. Our team will respond as soon as possible to assist you.
+          </p>
         </div>
       </div>
     </div>
