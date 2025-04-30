@@ -26,10 +26,13 @@
 }
 .heroContactUsBtn {
   width: 220px;
-  padding: 10px 0;
   border: none;
+  text-align: center;
+  padding: 7px 5px;
+  color: #000000;
   border-radius: 7px;
   font-size: 1.5em;
+  background-color: #f1f1f1;
 }
 
 .heroContactUsBtn:nth-child(2) {
@@ -38,8 +41,9 @@
 
 .heroContactUsBtn:hover {
   cursor: pointer;
-  background-color: darkgray;
+  text-decoration: underline;
   color: #fff;
+  background-color: #bdbcbc;
 }
 .homeHeroAbout {
   margin: 35px 25px;

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./../styles/Home.css";
 import { useLang } from "../components/LanguageController";
 import ImageSlider from "../components/ImageSlider";
@@ -26,12 +27,12 @@ function Home() {
       <div className="homeHero">
         <h3 className="heroHeaderTitle">{translate("home.homeHeroTitle")}</h3>
         <div className="heroHeaderBtns">
-          <button className="heroContactUsBtn">
+          <NavLink to="/contact" className="heroContactUsBtn">
             {translate("home.heroContactUsBtn")}
-          </button>
-          <button className="heroContactUsBtn">
+          </NavLink>
+          <NavLink to="./catalog" className="heroContactUsBtn">
             {translate("home.heroCatalogBtn")}
-          </button>
+          </NavLink>
         </div>
       </div>
       <div className="homeHeroAbout">

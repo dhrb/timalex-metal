@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/ImageSlider.css";
 import sliderArrowImgRight from "../assets/images/sliderArrowImgLeft.png";
 
-function ImageSlider({ images }) {
+function ImageSlider({ images = [] }) {
   const [currentImage, setCurrentImage] = useState(1);
 
   const prevSlide = () => {

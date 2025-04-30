@@ -3,9 +3,14 @@ import "../styles/aboutus.css";
 import aboutUsBgImg from "../assets/images/aboutUsBg.jpg";
 import { useLang } from "../components/LanguageController";
 import TotalsBlock from "../components/TotalsBlock";
+import ImageSlider from "../components/ImageSlider";
+import ImagesData from "../data/imagesData.jsx";
+import ContactForm from "../components/ContactForm.jsx";
 
 function AboutUs() {
   const { translate } = useLang();
+  const images = ImagesData.map((image) => image.image);
+
   return (
     <div className="aboutUsWrapper">
       <img src={aboutUsBgImg} alt="bgImg" className="aboutWrapperBg" />
@@ -48,8 +53,7 @@ function AboutUs() {
           <li>{translate("aboutUs.wwdFrames")}</li>
           <li>{translate("aboutUs.wwdCustom")}</li>
         </ul>
-        <h1 className="aboutUsImgSlider">Slider will be here</h1>
-
+        <ImageSlider images={images} paginationLength={images.length} />
         <p className="aboutQualityNote">
           {translate("aboutUs.aboutQualityNote")}
         </p>
@@ -60,6 +64,7 @@ function AboutUs() {
         monthlyPowerText={translate("totalsBlock.monthlyPowerText")}
         marketYearsText={translate("totalsBlock.marketYearsText")}
       />
+      <ContactForm />
     </div>
   );
 }
