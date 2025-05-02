@@ -1,22 +1,55 @@
 import React from "react";
 import "../styles/Balconies.css";
 import { useLang } from "../components/LanguageController";
+import ImageSlider from "../components/ImageSlider";
+import imagesData from "../data/imagesData";
+import balconiesBgImg from "./../assets/imagesData/balconies1.jpg";
 
 function Balconies() {
   const { translate } = useLang();
+
+  const balconyImages = imagesData
+    .filter((balcony) => balcony.category === "balcons")
+    .map((item) => item.image);
+
   return (
     <div className="balconiesWrapper">
-      <h3 className="balconiesName">Balconies</h3>
+      <div className="balconiesNameWrapper">
+        <img src={balconiesBgImg} alt="" className="balconiesNameWrapperImg" />
+        <h3 className="balconiesName">{translate("header.headerBalconies")}</h3>
+      </div>
       <div className="balconiesHeader">
         <h3 className="balconiesTitle">
           {translate("balconies.balconiesTitle")}
         </h3>
-        <p className="balkoniesSubtitle">
+        <p className="balconiesSubtitle">
           {translate("balconies.balconiesSubtitle")}
         </p>
       </div>
       <div className="balconiesBody">
-        <div className="balconiesSlider">Slider will be here</div>
+        <div className="balconiesBodyAdvantages">
+          <h3 className="balconiesBodyAdvantagesTitle">
+            {translate("balconies.balconiesBodyAdvantagesTitle")}
+          </h3>
+          <p className="balconiesBodyAdvantagesSubtitle">
+            {translate("balconies.balconiesBodyAdvantagesSubtitle")}
+          </p>
+          <ul className="balconiesBodyAdvantagesList">
+            <li className="balconiesBodyAdvantagesListItem">
+              {translate("balconies.balconiesBodyAdvantagesListItem1")}
+            </li>
+            <li className="balconiesBodyAdvantagesListItem">
+              {translate("balconies.balconiesBodyAdvantagesListItem2")}
+            </li>
+            <li className="balconiesBodyAdvantagesListItem">
+              {translate("balconies.balconiesBodyAdvantagesListItem3")}
+            </li>
+          </ul>
+          <p className="balconiesBodyAdvantagesSummary">
+            {translate("balconies.balconiesBodyAdvantagesSummary")}
+          </p>
+        </div>
+        <ImageSlider images={balconyImages} />
         <div className="balconiesInfo">
           <h3 className="balconiesInfoTitle">
             {translate("balconies.balconiesInfoTitle")}

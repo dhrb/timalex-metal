@@ -20,7 +20,6 @@
   align-items: center;
 }
 .contactBodyInfo {
-  width: 100%;
 }
 .contactBodyInfoTitle {
   font-size: 1.3em;
@@ -96,6 +95,7 @@
 }
 .formSentMessage {
   text-align: center;
+  max-width: 400px;
 }
 @media screen and (max-width: 767px) {
   .contactBody {

@@ -46,6 +46,12 @@
   font-size: 18px;
   padding: 10px 20px;
   margin: 0 15px 0 0;
+  transition: all 0.2s ease-in-out;
+}
+.catalogFiltersBtn:hover {
+  background-color: #afafaf;
+  color: #fff;
+  cursor: pointer;
 }
 
 .catalogFiltersBtnActive {
@@ -54,15 +60,23 @@
   font-size: 18px;
   padding: 10px 20px;
   margin: 0 15px 0 0;
-  border: 1px solid green;
+  background-color: #afafaf;
+  color: #fff;
+  border: 1px solid black;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 665px) {
   .imagesGallerySection {
     justify-content: center;
   }
   .galleryImg {
     width: 80%;
     height: 400px;
+  }
+  .catalogFilters {
+    flex-wrap: wrap;
+  }
+  .catalogFiltersBtn:nth-child(2n) {
+    margin: 5px;
   }
 }

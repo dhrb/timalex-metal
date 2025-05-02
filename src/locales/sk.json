@@ -44,6 +44,14 @@
     "balconies" : {
       "balconiesTitle" : "Kovové konštrukcie na mieru pre náročné fasádne riešenia a architektúru",
       "balconiesSubtitle" : "Vyrábame kovové balkóny pre novostavby aj rekonštrukcie. Individuálny dizajn, statická spoľahlivosť a kvalitné spracovanie detailov.",
+
+      "balconiesBodyAdvantagesTitle": "Prečo práve naše balkóny?",
+      "balconiesBodyAdvantagesSubtitle": "Pretože neinštalujeme len konštrukcie – vytvárame priestor, kde je radosť žiť. Naše balkóny sú výsledkom desiatok realizovaných projektov na Slovensku, v Nemecku a Holandsku. Používame iba overené materiály, venujeme pozornosť každému detailu a berieme do úvahy klimatické špecifiká regiónu.",
+      "balconiesBodyAdvantagesListItem1": "📌 Pevné konštrukcie, kvalitné zasklenie a moderný vzhľad.",
+      "balconiesBodyAdvantagesListItem2": "📌 Jasné termíny, európska úroveň služieb a záruka až 5 rokov.",
+      "balconiesBodyAdvantagesListItem3": "📌 Individuálny prístup ku každému objektu – od návrhu po montáž.",
+      "balconiesBodyAdvantagesSummary": "S nami získate nielen balkón, ale pohodlné, bezpečné a estetické riešenie na dlhé roky.",
+
       "balconiesInfoTitle" : "Kovové balkóny na mieru",
       "balconiesInfoSubtitle" : "Naša spoločnosť sa špecializuje na výrobu kovových balkónov pre rôzne typy objektov — od rodinných domov a víl až po viacpodlažné obytné budovy a komerčné projekty. Spolupracujeme s developermi aj súkromnými klientmi, pričom prispôsobujeme každý návrh konkrétnym architektonickým a technickým požiadavkám.",
       "balconiesInfoSubtitle1" : "Všetky balkónové systémy sú navrhnuté s dôrazom na bezpečnosť, odolnosť a estetický vzhľad. Ponúkame kompletný servis — od návrhu až po montáž — a taktiež možnosť výroby balkónov bez montáže podľa výkresov alebo návrhov klienta.",
@@ -51,11 +59,34 @@
     },
     "railings" : {
       "railingsTitle" : "Spoľahlivé bezpečnostné systémy pre schodiská, terasy a verejné priestory",
-      "railingsSubtitle" : "Oceľové zábradlia pre domy aj verejné priestory. Dôraz na bezpečnosť, estetiku a precízne prispôsobenie architektúre."
+      "railingsSubtitle" : "Oceľové zábradlia pre domy aj verejné priestory. Dôraz na bezpečnosť, estetiku a precízne prispôsobenie architektúre.",
+
+      "railingsBodyAdvantagesTitle": "Prečo práve naše zábradlia?",
+      "railingsBodyAdvantagesSubtitle": "Pretože ponúkame viac než len oplotenie — vytvárame bezpečné a estetické riešenia, ktoré podčiarknu štýl vášho objektu. Naše zábradlia sú nainštalované na desiatkach projektov na Slovensku, v Nemecku a Holandsku. Používame len kvalitné materiály a prispôsobujeme sa architektúre a požiadavkám každého projektu.",
+      "railingsBodyAdvantagesListItem1": "📌 Odolné konštrukcie z ocele, hliníka a skla — pre domy aj komerčné priestory.",
+      "railingsBodyAdvantagesListItem2": "📌 Precízna montáž, moderný dizajn a záruka až 5 rokov.",
+      "railingsBodyAdvantagesListItem3": "📌 Individuálny prístup: od merania a návrhu až po inštaláciu.",
+      "railingsBodyAdvantagesSummary": "S nami získate nielen zábradlie, ale premyslený a vkusný prvok vášho priestoru.",
+      "railingsInfoTitle": "Zábradlia na mieru z kovu",
+      "railingsInfoSubtitle": "Naša spoločnosť navrhuje a vyrába kovové zábradlia prispôsobené pre balkóny, schodiská, terasy a oplotenia. Či ide o súkromné bývanie alebo komerčný objekt, dodávame riešenia, ktoré spájajú bezpečnosť a eleganciu.",
+      "railingsInfoSubtitle1": "Všetky systémy zábradlí sú vytvárané s dôrazom na technické normy a vizuálnu harmóniu. Spolupracujeme s architektmi, developermi aj individuálnymi klientmi, aby každé zábradlie ladilo so štýlom a konštrukciou priestoru.",
+      "railingsInfoSubtitle2": "Naše skúsenosti na európskom trhu nám umožňujú zaručiť kvalitné materiály, profesionálnu montáž a trvácny výsledok v súlade s bezpečnostnými normami EÚ."
     },
     "gates" : {
       "gatesTitle" : "Technické riešenia pre riadenie vstupu — komfort, automatizácia, bezpečnosť",
-      "gatesSubtitle" : "Realizujeme manuálne aj automatické brány pre súkromné a firemné objekty. Kompletná montáž a technické prispôsobenie."
+      "gatesSubtitle" : "Realizujeme manuálne aj automatické brány pre súkromné a firemné objekty. Kompletná montáž a technické prispôsobenie.",
+
+      "gatesBodyAdvantagesTitle": "Prečo práve naše brány?",
+      "gatesBodyAdvantagesSubtitle": "Pretože naše brány nie sú len vstupom na pozemok — sú vizitkou vášho domova alebo firmy. Realizovali sme desiatky projektov na Slovensku, v Nemecku a Holandsku. Vždy dbáme na bezpečnosť, funkčnosť a estetiku, pričom používame len overené materiály.",
+      "gatesBodyAdvantagesListItem1": "📌 Kvalitné oceľové a hliníkové konštrukcie s moderným alebo klasickým vzhľadom.",
+      "gatesBodyAdvantagesListItem2": "📌 Automatizácia, bezpečnostné prvky a montáž podľa európskych štandardov.",
+      "gatesBodyAdvantagesListItem3": "📌 Riešenia na mieru — od návrhu po realizáciu, prispôsobené vašim potrebám.",
+      "gatesBodyAdvantagesSummary": "S našimi bránami získate nielen ochranu, ale aj reprezentatívny prvok pre váš objekt.",
+    
+      "gatesInfoTitle": "Brány na mieru pre každý typ objektu",
+      "gatesInfoSubtitle": "Špecializujeme sa na výrobu a inštaláciu brán pre rodinné domy, priemyselné areály aj komerčné priestory. Ponúkame riešenia pre manuálne aj automatické brány, ktoré spĺňajú technické a estetické požiadavky klientov.",
+      "gatesInfoSubtitle1": "Každý projekt prispôsobujeme konkrétnemu priestoru. Spolupracujeme s developermi aj súkromnými zákazníkmi, pričom zohľadňujeme architektonický štýl a bezpečnostné požiadavky.",
+      "gatesInfoSubtitle2": "Vďaka našim skúsenostiam vieme dodať brány, ktoré sú spoľahlivé, moderné a zodpovedajú najvyšším štandardom kvality v EÚ."
     },
 
     "aboutUs" : {

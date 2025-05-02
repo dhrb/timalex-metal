@@ -6,17 +6,18 @@ function CookieConsentBanner() {
 
   useEffect(() => {
     const cookiesAccepted = localStorage.getItem("cookiesAccepted");
-    if (!cookiesAccepted) {
+    if (cookiesAccepted == "true") {
       setIsVisible(true);
     }
   }, []);
 
   const cookieAccept = () => {
-    localStorage.setItem("cookiesAccepted", "true");
+    console.log("false");
+    localStorage.setItem("cookiesAccepted", false);
     setIsVisible(false);
   };
 
-  if (!isVisible) return null;
+  if (isVisible == false) return null;
 
   return (
     <div className="cookieBannerWrapper">
@@ -26,13 +27,13 @@ function CookieConsentBanner() {
         to the use of cookies as outlined in our privacy policy. cookies.
       </p>
       <div className="cookieBannersButtons">
-        <button className="cookieBannerBtn" onClick={cookieAccept}>
+        <button className="cookieBannerBtn" onClick={() => cookieAccept()}>
           Accept
         </button>
-        <button className="cookieBannerBtn" onClick={cookieAccept}>
+        <button className="cookieBannerBtn" onClick={() => cookieAccept()}>
           Decline
         </button>
-        <button className="cookieBannerBtn" onClick={cookieAccept}>
+        <button className="cookieBannerBtn" onClick={() => cookieAccept()}>
           Privacy policy
         </button>
       </div>

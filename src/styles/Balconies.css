@@ -1,16 +1,64 @@
 .balconiesWrapper {
-  padding: 10px 15px;
+}
+.balconiesNameWrapper {
+  width: 100%;
+  position: relative;
+  height: 350px;
+}
+.balconiesNameWrapperImg {
+  width: 100%;
+  z-index: 0;
+  height: 300px;
+  position: absolute;
 }
 .balconiesName {
-  background-image: url("../assets/imagesData/balconies6.png");
-  background-size: 100% 100%;
-  padding: 10px;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #9c9c9ce8;
+  border-radius: 7px;
+  width: 300px;
+  text-align: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 20vh;
+  z-index: 1;
+  position: relative;
+  left: 30px;
+  top: 35%;
+}
+.balconiesSubtitle {
+  font-size: 17px;
+  font-weight: 400;
 }
 .balconiesHeader {
-  margin: 20px 0;
+  margin: 0 25px 25px;
+}
+.balconiesTitle {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+.balconiesBodyAdvantages {
+  margin: 0 25px 25px;
+}
+.balconiesBodyAdvantagesSubtitle {
+  margin: 5px 0 10px;
+}
+.balconiesBodyAdvantagesList {
+  margin: 0 0 5px 15px;
+  list-style-type: none;
+  line-height: 25px;
+}
+.balconiesBodyAdvantagesSummary {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.balconiesInfo {
+  margin: 15px;
+}
+.balconiesInfoSubtitle {
+  margin: 15px 0;
+}
+.balconiesInfoSubtitle2 {
+  margin: 15px 0 0 0;
+  font-weight: 500;
 }

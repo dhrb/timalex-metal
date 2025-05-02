@@ -48,18 +48,51 @@
     "balconies" : {
       "balconiesTitle" : "Custom metal structures for complex architectural façade solutions",
       "balconiesSubtitle" : "We produce metal balconies for new construction and renovations. Reliable solutions with custom dimensions, design, and technical detailing.",
+      "balconiesBodyAdvantagesTitle" : "Why our balconies?",
+      "balconiesBodyAdvantagesSubtitle" : "Because we don't just install structures - we create a space where it is pleasant to live. Our balconies are the result of dozens of realized projects in Slovakia, Germany and the Netherlands. We use only proven materials, pay attention to every detail and take into account the climatic peculiarities of the region.",
+      "balconiesBodyAdvantagesListItem1" : "📌 Sturdy frames, quality glazing and modern appearance.",
+      "balconiesBodyAdvantagesListItem2" : "📌 Clear deadlines, European level of service and warranty up to 5 years.",
+      "balconiesBodyAdvantagesListItem3" : "📌 Individual approach to each object - from the project to installation.",
+      "balconiesBodyAdvantagesSummary" : "With us you get not just a balcony, but a comfortable, safe and beautiful solution for years.",
+
       "balconiesInfoTitle" : "Custom-Made Metal Balconies",
       "balconiesInfoSubtitle" : "Our company specializes in manufacturing metal balconies for various types of properties — from private houses and cottages to multi-storey residential buildings and commercial developments. We collaborate with both developers and private clients, tailoring each design to specific architectural and technical requirements.",
       "balconiesInfoSubtitle1" : "All balcony systems are built with a focus on safety, durability, and aesthetics. We offer a full range of services — from design to installation — and can also produce balconies without installation, based on customer-provided blueprints or sketches.",
       "balconiesInfoSubtitle2" : "Thanks to our professional approach and years of experience, we deliver solutions that combine reliability, a modern appearance, and compliance with European quality standards."
+
     },
     "railings" : {
       "railingsTitle" : "Reliable safety systems for staircases, terraces, and public environments",
-      "railingsSubtitle" : "Durable steel railings for residential and public use. Focus on safety, precision workmanship, and architectural compatibility in every project."
+      "railingsSubtitle" : "Durable steel railings for residential and public use. Focus on safety, precision workmanship, and architectural compatibility in every project.",
+      "railingsBodyAdvantagesTitle" : "Why our railings?",
+      "railingsBodyAdvantagesSubtitle" : "Because we offer more than just barriers — we create safe and aesthetic solutions that complement the style of your property. Our railings have been installed in dozens of projects in Slovakia, Germany, and the Netherlands. We use only high-quality materials and adapt to the architecture and needs of each project.",
+      "railingsBodyAdvantagesListItem1" : "📌 Durable constructions made of steel, aluminum, and glass — for both residential and commercial use.",
+      "railingsBodyAdvantagesListItem2" : "📌 Clean installation, modern design, and up to 5-year warranty.",
+      "railingsBodyAdvantagesListItem3" : "📌 Individual approach: from measuring and design to final installation.",
+      "railingsBodyAdvantagesSummary" : "With us, you don’t just get railings — you get a well-thought-out and refined part of your space.",
+
+
+      "railingsInfoTitle": "Custom-Made Metal Railings",
+      "railingsInfoSubtitle": "Our company designs and manufactures metal railings tailored for balconies, stairs, terraces, and fencing systems. Whether it's a private residence or a commercial facility, we deliver solutions that combine safety and elegance.",
+      "railingsInfoSubtitle1": "All railing systems are created with strict attention to technical norms and visual harmony. We work with architects, developers, and individual clients to ensure that every railing matches the style and structure of the space.",
+      "railingsInfoSubtitle2": "Our experience in the European market allows us to guarantee quality materials, professional installation, and a long-lasting result that complies with EU safety standards."
+    
     },
     "gates" : {
       "gatesTitle" : "Engineered access control solutions — convenience, automation, protection",
-      "gatesSubtitle" : "Design and installation of manual or automated gates for private and commercial facilities. Tailored functionality and strong structural integrity."
+      "gatesSubtitle" : "Design and installation of manual or automated gates for private and commercial facilities. Tailored functionality and strong structural integrity.",
+
+      "gatesBodyAdvantagesTitle": "Why choose our gates?",
+      "gatesBodyAdvantagesSubtitle": "Because our gates are more than just an entrance — they are the face of your home or business. We’ve completed dozens of projects in Slovakia, Germany, and the Netherlands. We focus on safety, functionality, and appearance, using only trusted materials.",
+      "gatesBodyAdvantagesListItem1": "📌 Durable steel and aluminum structures with a modern or classic design.",
+      "gatesBodyAdvantagesListItem2": "📌 Automation, safety features, and installation in line with European standards.",
+      "gatesBodyAdvantagesListItem3": "📌 Custom-made solutions — from concept to execution, tailored to your needs.",
+      "gatesBodyAdvantagesSummary": "With our gates, you get not only protection but also a stylish and representative element for your property.",
+
+      "gatesInfoTitle": "Custom-Made Gates for Any Property",
+      "gatesInfoSubtitle": "We specialize in manufacturing and installing gates for residential homes, industrial areas, and commercial spaces. We offer solutions for both manual and automatic gates, meeting technical and aesthetic demands.",
+      "gatesInfoSubtitle1": "Each project is tailored to its specific environment. We work with developers and private clients, ensuring the gate matches the architectural style and safety requirements.",
+      "gatesInfoSubtitle2": "Thanks to our experience, we deliver gates that are reliable, visually appealing, and compliant with top EU quality standards."
     },
 
     

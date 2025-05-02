@@ -79,14 +79,14 @@ function Footer() {
             </NavLink>
           </div>
         </div>
-        <div className="footerMainInfo">
-          <div className="footerContacts">
-            <a href="tel:+421918123153" className="footerContactItem">
-              +421918123153
-            </a>
-            <a href="mailto:office@timalex.sk" className="footerContactItem">
-              office@timalex.sk
-            </a>
+        <div className="footerContacts">
+          <a href="tel:+421918123153" className="footerContactItem">
+            +421918123153
+          </a>
+          <a href="mailto:office@timalex.sk" className="footerContactItem">
+            office@timalex.sk
+          </a>
+          <div className="footerContactsSocial">
             <a
               href="https://api.whatsapp.com/send?phone=380676927263"
               className="footerContactItem"

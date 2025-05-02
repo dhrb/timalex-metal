@@ -14,7 +14,7 @@
   padding: 10px 0;
 }
 .totalsBlockItem:hover {
-  background-color: rgba(249, 230, 222, 0.407);
+  background-color: rgba(226, 226, 226, 0.588);
   cursor: pointer;
 }
 
@@ -25,4 +25,13 @@
   font-weight: 700;
   font-size: 30px;
   color: rgb(245, 166, 20);
+}
+
+@media screen and (max-width: 765px) {
+  .totalsBlockWrapper {
+    flex-direction: column;
+  }
+  .totalBlockItemImg {
+    width: 20%;
+  }
 }

@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Header from "./components/Header.jsx";
@@ -12,9 +10,9 @@ import Contact from "./pages/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import CookieConsentBanner from "./components/CookieConsentBanner.jsx";
 import "./App.css";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "./components/LanguageController.jsx";
+import imagesData from "./data/imagesData.jsx";
 
 function App() {
   return (

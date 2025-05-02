@@ -13,17 +13,15 @@ function ContactForm() {
   const [country, setCountry] = useState("Slovakia");
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
-  const [isFormSent, setIsFormSent] = useState("false");
+  const [isFormSent, setIsFormSent] = useState(false);
 
   useEffect(() => {
     const formSent = localStorage.getItem("formSent");
     console.log(formSent);
-    if (formSent == "true") {
-      () => {
-        isFormSent(true);
-        localStorage.setItem("formSent", "true");
-        console.log("form toggled to true");
-      };
+    if (formSent === "true") {
+      setIsFormSent(true);
+      localStorage.setItem("formSent", "true");
+      console.log("form toggled to true");
     }
   }, []);
 
@@ -89,6 +87,7 @@ function ContactForm() {
       .then((res, err) => {
         console.log(res);
         if (res.status == 200) {
+          localStorage.setItem("formSent", "true");
           setIsFormSent(true);
           setLoading(false);
         } else console.log(err.message);
@@ -202,12 +201,9 @@ function ContactForm() {
               className="contactSelectCountry"
               name="countries"
               id="countries"
+              onChange={(e) => setCountry(e.target.value)}
             >
-              <option
-                onClick={() => setCountry(e.country.value)}
-                value="I don`t know."
-                className="contactSelectCountryName"
-              >
+              <option value="all" className="contactSelectCountryName">
                 I don`t know.
               </option>
               <option value="Slovakia" className="contactSelectCountryName">

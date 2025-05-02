@@ -20,9 +20,19 @@
 .footerContactItem {
   margin: 0 0 0 15px;
   color: black;
+  transition: all 0.15s ease-in-out;
+}
+.footerContactItem:hover {
+  text-decoration: underline;
+  color: #838383;
 }
 .footerContactImg {
   width: 50px;
+  border-radius: 10px;
+  transition: all 0.15s ease-in-out;
+}
+.footerContactImg:hover {
+  box-shadow: 0px 0px 7px #9a9a9a;
 }
 .footerEnd {
   display: flex;
@@ -40,15 +50,26 @@
   align-items: center;
   padding: 5px;
 }
+
 .footerSubscribeSendIcon {
   width: 20px;
+}
+.footerSubscribeSendIcon:hover {
+  cursor: default;
 }
 .footerLogoDescription {
   width: 60%;
 }
 .footerSubscribeInput {
+  margin-right: 5px;
   min-width: 250px;
+  height: 30px;
   border: none;
+  padding: 2px 2px 0 2px;
+  font-size: 15px;
+}
+.footerSubscribeInput:hover {
+  cursor: pointer;
 }
 .footerLogoNav {
   display: flex;
@@ -75,4 +96,40 @@
 .footerLogoNavLink:hover {
   background-color: #9a9a9a;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .footerMainLogo {
+    flex-direction: column;
+  }
+  .footerMainLogoImg {
+    width: 80%;
+  }
+  .footerLogoDescription {
+    width: 90%;
+    text-align: center;
+    margin: 0 0 25px 0;
+  }
+  .footerLogoNavLink {
+    margin: 5px 0;
+  }
+  .footerMainInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerContacts {
+    flex-direction: column;
+  }
+  .footerContactsSocial {
+    margin: 15px 0 0;
+  }
+  .footerTitle {
+    font-size: 2rem;
+  }
+  .footerContactItem {
+    margin: 15px 0 0;
+  }
+  .footerContactImg {
+    margin: 0 15px;
+  }
 }
