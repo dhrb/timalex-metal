@@ -112,7 +112,12 @@
   }
   .footerLogoNavLink {
     margin: 5px 0;
+    text-align: center;
   }
+  .footerLogoNavLinkActive {
+    text-align: center;
+  }
+
   .footerMainInfo {
     display: flex;
     flex-direction: column;

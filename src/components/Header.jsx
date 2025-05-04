@@ -16,14 +16,15 @@ function Header() {
       <div className="headerSocialLinks">
         <a
           href="https://api.whatsapp.com/send?phone=380676927263"
-          target="_blank"
           className="headerLink"
+          target="_blank"
         >
           <img className="headerLinkImg" src={whatsappIcon} />
         </a>
         <a
           href="https://www.linkedin.com/in/alexsimonov-timalex/"
           className="headerLink"
+          target="_blank"
         >
           <img className="headerLinkImg" src={linkedinIcon} />
         </a>

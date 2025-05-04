@@ -25,10 +25,12 @@
   margin: 15px 0;
 }
 .heroContactUsBtn {
-  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
   border: none;
-  text-align: center;
-  padding: 7px 5px;
+  padding: 5px;
   color: #000000;
   border-radius: 7px;
   font-size: 1.5em;
@@ -63,7 +65,7 @@
 }
 
 .homeHeroAdvantages {
-  margin: 0px 25px 15px;
+  margin: 35px 25px 15px;
 }
 .homeHeroAdvantagesText {
   font-size: 1.2em;
@@ -115,10 +117,26 @@
   text-align: center;
   padding: 0 100px;
 }
-
 @media screen and (max-width: 885px) {
   .categoryCardsWrapper {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .heroHeaderTitle {
+    width: 80%;
+  }
+  .heroHeaderBtns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    align-items: self-start;
+  }
+  .heroContactUsBtn {
+    width: 100%;
+    margin: 0;
+  }
+  .heroContactUsBtn:nth-child(2) {
+    margin: 15px 0 0 0;
   }
 }

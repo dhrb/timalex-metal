@@ -70,7 +70,7 @@
     justify-content: center;
   }
   .galleryImg {
-    width: 80%;
+    width: 100%;
     height: 400px;
   }
   .catalogFilters {
@@ -78,5 +78,9 @@
   }
   .catalogFiltersBtn:nth-child(2n) {
     margin: 5px;
+  }
+  .galleryCard {
+    width: 100%;
+    padding-right: 0;
   }
 }

@@ -25,9 +25,23 @@
   font-size: 1.3em;
   font-weight: 500;
 }
+.contactFormSocialLinks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px 0 0;
+}
+.contactFormSocialImg {
+  width: 50px;
+}
 .bodyInfoItemTitle {
   font-size: 1.1em;
   font-weight: 400;
+  color: inherit;
+}
+.bodyInfoItemTitle:hover {
+  cursor: pointer;
 }
 
 .contactBodyInfoItem {

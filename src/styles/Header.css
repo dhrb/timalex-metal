@@ -38,8 +38,22 @@
 @media screen and (max-width: 768px) {
   .headerWrapper {
     flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.2rem;
+  }
+  .headerLink {
+    margin: 0;
+  }
+  .headerLink:nth-child(1) {
+    margin: 0 0 0 0;
   }
   .headerLink:nth-child(2) {
     margin: 15px 0;
+  }
+  .headerSocialLinks {
+    margin: 5px 0 0;
+  }
+  .headerLinkImg {
+    margin: 0 10px 0;
   }
 }

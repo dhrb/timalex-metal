@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useLang } from "./LanguageController";
 import emailjs from "emailjs-com";
 import messageReceivedImg from "./../assets/images/messageReceivedImg.png";
+import linkedinIcon from "./../assets/images/linkedinIcon.png";
+import whatsappIcon from "./../assets/images/whatsappIcon.png";
 
 function ContactForm() {
   const { translate } = useLang();
@@ -113,18 +115,41 @@ function ContactForm() {
             <h3 className="bodyInfoItemTitle">
               {translate("contact.contactBodyInfoPhone")}
             </h3>
-            <a className="bodyInfoItemTitle">+ 421 000 000 00</a>
+            <a href="tel:+421918123153" className="bodyInfoItemTitle">
+              +421 918 123 153
+            </a>
           </div>
           <div className="contactBodyInfoItem">
             <h3 className="bodyInfoItemTitle">
               {translate("contact.contactBodyInfoEmail")}
             </h3>
-            <a className="bodyInfoItemTitle">timalex@timales.sk</a>
+            <a href="mailto:info@timalex.sk.sk" className="bodyInfoItemTitle">
+              info@timalex.sk
+            </a>
+            <br />
+            <a href="mailto:office@timalex.sk" className="bodyInfoItemTitle">
+              office@timalex.sk
+            </a>
           </div>
           <div className="contactBodyInfoItem">
             <h3 className="bodyInfoItemTitle">
               {translate("contact.contactBodySocialLinks")}
             </h3>
+            <div className="contactFormSocialLinks">
+              <a
+                href="https://api.whatsapp.com/send?phone=380676927263"
+                target="_blank"
+                className="contactFormSocialLink"
+              >
+                <img className="contactFormSocialImg" src={whatsappIcon} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/alexsimonov-timalex/"
+                className="contactFormSocialLink"
+              >
+                <img className="contactFormSocialImg" src={linkedinIcon} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
