@@ -26,7 +26,7 @@ function TotalsBlock({
       </div>
       <div className="totalsBlockItem">
         <img src={monthlyPowerIcon} alt="" className="totalBlockItemImg" />
-        <p className="totalsBlockItemNumber">30+ </p>
+        <p className="totalsBlockItemNumber">100+ </p>
         <p className="totalsBlockItemtext">{monthlyPowerText}</p>
       </div>
       <div className="totalsBlockItem">

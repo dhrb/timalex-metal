@@ -6,8 +6,7 @@ import ImageSlider from "../components/ImageSlider";
 import TotalsBlock from "../components/TotalsBlock";
 import ImagesData from "../data/imagesData.jsx";
 import CategoryCard from "../components/CategoryCard.jsx";
-
-import homePageBalconImg from "./../assets/images/homePageBalcon.jpg";
+import categoryCardFrames from "../assets/images/categoryCardFramesImg.jpg";
 import homePageGateImg from "./../assets/images/homepageGateImg.jpg";
 import homePageRailingsImg from "./../assets/images/homePageRailings.jpg";
 import planningStepImg from "./../assets/images/planningStepImg.jpeg";
@@ -15,8 +14,6 @@ import offeringStepImg from "./../assets/images/offeringStepImg.jpeg";
 import workersWorkImg from "./../assets/images/workersWorkImg.jpeg";
 import finishStepImg from "./../assets/images/finishStepImg.jpeg";
 import ContactForm from "../components/ContactForm.jsx";
-
-("​Компания BMP Tornado специализируется на изготовлении и установке балконов, предлагая широкий спектр услуг, включая остекление, утепление и отделку. Их продукция отличается высоким качеством и долговечностью, благодаря использованию современных материалов и технологий. Опытные специалисты компании обеспечивают индивидуальный подход к каждому проекту, учитывая пожелания клиента и особенности здания. BMP Tornado гарантирует надежность и эстетичность своих балконов, создавая комфортное пространство для отдыха и повседневной жизни.​");
 
 function Home() {
   const { translate } = useLang();
@@ -45,23 +42,16 @@ function Home() {
       </div>
       <div className="categoryCardsWrapper">
         <CategoryCard
-          img={homePageBalconImg}
-          title={"Balconies"}
-          subtitle={"Lorem ipsum dolor sit"}
+          img={homePageRailingsImg}
+          title={"Railings"}
           link={"/balconies"}
         />
         <CategoryCard
-          img={homePageRailingsImg}
-          title={"Railings"}
-          subtitle={"Lorem ipsum dolor sit"}
+          img={categoryCardFrames}
+          title={"Frames"}
           link={"/railings"}
         />
-        <CategoryCard
-          img={homePageGateImg}
-          title={"Gates"}
-          subtitle={"Lorem ipsum dolor sit"}
-          link={"/gates"}
-        />
+        <CategoryCard img={homePageGateImg} title={"Gates"} link={"/gates"} />
       </div>
       <div className="homeHeroAdvantages">
         <p className="homeHeroAdvantagesText">
@@ -77,7 +67,7 @@ function Home() {
       <ImageSlider images={images} paginationLength={images.length} />
 
       <div className="homeHeroStepsWrapper">
-        <div className="homeHeroStepsWrapperHead">
+        {/* <div className="homeHeroStepsWrapperHead">
           <h1 className="homeHeroStepsWrapperTitle">
             {translate("home.homeWorkSectionTitle")}
           </h1>
@@ -128,14 +118,14 @@ function Home() {
                 {translate("home.homeHeroStep4Subtitle")}
               </p>
             </div>
-          </div>
-          <TotalsBlock
-            readyOrdersText={translate("totalsBlock.readyOrdersText")}
-            readyProjectsText={translate("totalsBlock.readyProjectsText")}
-            monthlyPowerText={translate("totalsBlock.monthlyPowerText")}
-            marketYearsText={translate("totalsBlock.marketYearsText")}
-          />
-        </div>
+          </div> */}
+        <TotalsBlock
+          readyOrdersText={translate("totalsBlock.readyOrdersText")}
+          readyProjectsText={translate("totalsBlock.readyProjectsText")}
+          monthlyPowerText={translate("totalsBlock.monthlyPowerText")}
+          marketYearsText={translate("totalsBlock.marketYearsText")}
+        />
+        {/* </div> */}
         <div className="homeContactForm">
           <h2 className="homeContactFormTitle">Get in Touch with Us</h2>
           <p className="homeContactFormSubtitle">

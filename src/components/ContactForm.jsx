@@ -8,11 +8,10 @@ import whatsappIcon from "./../assets/images/whatsappIcon.png";
 function ContactForm() {
   const { translate } = useLang();
 
-  const [firstname, setFirstname] = useState("");
-  const [lastname, setLastname] = useState("");
+  const [name, setName] = useState("");
+  const [company, setCompany] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [country, setCountry] = useState("Slovakia");
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [isFormSent, setIsFormSent] = useState(false);
@@ -28,31 +27,27 @@ function ContactForm() {
   }, []);
 
   const templateParams = {
-    firstname,
-    lastname,
+    name,
+    company,
     email,
     phone,
-    country,
   };
 
   const handleInput = (e) => {
     let id = e.target.id;
     let text = e.target.value;
     switch (id) {
-      case "firstname":
-        setFirstname(text);
+      case "name":
+        setName(text);
         break;
-      case "lastName":
-        setLastname(text);
+      case "company":
+        setCompany(text);
         break;
       case "email":
         setEmail(text);
         break;
       case "phone":
         setPhone(text);
-        break;
-      case "country":
-        setCountry(text);
         break;
       default:
     }
@@ -115,7 +110,7 @@ function ContactForm() {
             <h3 className="bodyInfoItemTitle">
               {translate("contact.contactBodyInfoPhone")}
             </h3>
-            <a href="tel:+421918123153" className="bodyInfoItemTitle">
+            <a href="tel:+421 918 123 153" className="bodyInfoItemTitle">
               +421 918 123 153
             </a>
           </div>
@@ -123,10 +118,7 @@ function ContactForm() {
             <h3 className="bodyInfoItemTitle">
               {translate("contact.contactBodyInfoEmail")}
             </h3>
-            <a href="mailto:info@timalex.sk.sk" className="bodyInfoItemTitle">
-              info@timalex.sk
-            </a>
-            <br />
+
             <a href="mailto:office@timalex.sk" className="bodyInfoItemTitle">
               office@timalex.sk
             </a>
@@ -177,7 +169,7 @@ function ContactForm() {
           </div>
           <div className="contactBodyFormItem">
             <p className="contactBodyFormName">
-              {translate("contact.contactBodyFormLN")}
+              {translate("contact.contactBodyFormFirm")}
             </p>
             <input
               onChange={(e) => handleInput(e)}
@@ -220,27 +212,6 @@ function ContactForm() {
               name="phone"
               required
             />
-          </div>
-          <div className="contactSelectCountryWrapp">
-            <select
-              className="contactSelectCountry"
-              name="countries"
-              id="countries"
-              onChange={(e) => setCountry(e.target.value)}
-            >
-              <option value="all" className="contactSelectCountryName">
-                I don`t know.
-              </option>
-              <option value="Slovakia" className="contactSelectCountryName">
-                Slovakia
-              </option>
-              <option value="Germany" className="contactSelectCountryName">
-                Germany
-              </option>
-              <option value="Holland" className="contactSelectCountryName">
-                Holland
-              </option>
-            </select>
           </div>
           <button onClick={(e) => handleSubmit(e)} className="contactFormBtn">
             {loading

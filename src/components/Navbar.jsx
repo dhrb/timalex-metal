@@ -5,9 +5,8 @@ import logoImg from "./../assets/images/logoImg.png";
 import enFlagImg from "../assets/images/ukFlag.png";
 import skFlagImg from "../assets/images/skFlag.png";
 import homeIcon from "../assets/images/homeIcon.png";
-import catalogIcon from "../assets/images/catalogIcon.png";
 import balconyIcon from "../assets/images/balconyIcon.png";
-import railIcon from "../assets/images/railingIcon.png";
+import frameIcon from "../assets/images/frameIcon.png";
 import gateIcon from "../assets/images/gateIcon.png";
 import aboutIcon from "../assets/images/aboutIcon.png";
 import contactIcon from "../assets/images/contactIcon.png";
@@ -62,13 +61,14 @@ function Navbar() {
           {translate(menuCollapsed ? " " : "header.headerHome")}
         </NavLink>
         <NavLink
-          to="/catalog"
+          to="/railings"
           className={({ isActive }) =>
             isActive ? "navbarLinkActive" : "navbarLinkItem"
           }
         >
-          <img src={catalogIcon} alt="" className="navbarLinkImg" />
-          {translate(menuCollapsed ? " " : "header.headerCatalog")}
+          <img src={balconyIcon} alt="" className="navbarLinkImg" />
+
+          {translate(menuCollapsed ? " " : "header.headerRailings")}
         </NavLink>
         <NavLink
           to="/balconies"
@@ -76,17 +76,9 @@ function Navbar() {
             isActive ? "navbarLinkActive" : "navbarLinkItem"
           }
         >
-          <img src={balconyIcon} alt="" className="navbarLinkImg" />
-          {translate(menuCollapsed ? " " : "header.headerBalconies")}
-        </NavLink>
-        <NavLink
-          to="/railings"
-          className={({ isActive }) =>
-            isActive ? "navbarLinkActive" : "navbarLinkItem"
-          }
-        >
-          <img src={railIcon} alt="" className="navbarLinkImg" />
-          {translate(menuCollapsed ? " " : "header.headerRailings")}
+          <img src={frameIcon} alt="" className="navbarLinkImg" />
+
+          {translate(menuCollapsed ? " " : "header.headerFrames")}
         </NavLink>
         <NavLink
           to="/gates"

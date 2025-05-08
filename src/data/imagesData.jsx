@@ -3,7 +3,6 @@ import balconies2 from "./../assets/imagesData/balconies2.jpg";
 import balconies3 from "./../assets/imagesData/balconies3.png";
 import balconies4 from "./../assets/imagesData/balconies4.png";
 import balconies5 from "./../assets/imagesData/balconies5.png";
-import balconies6 from "./../assets/imagesData/balconies6.png";
 import balconies7 from "./../assets/imagesData/balconies7.png";
 import balconies9 from "./../assets/imagesData/balconies9.png";
 import balconies10 from "./../assets/imagesData/balconies10.jpg";
@@ -22,7 +21,6 @@ const imagesData = [
   { image: balconies3, category: "balcons", title: "Balconies sample 3" },
   { image: balconies4, category: "balcons", title: "Balconies sample 4" },
   { image: balconies5, category: "balcons", title: "Balconies sample 5" },
-  { image: balconies6, category: "balcons", title: "Balconies sample 6" },
   { image: balconies7, category: "balcons", title: "Balconies sample 7" },
   { image: balconies9, category: "balcons", title: "Balconies sample 8" },
   { image: balconies10, category: "balcons", title: "Balconies sample 9" },

@@ -53,7 +53,6 @@ function AboutUs() {
           <li>{translate("aboutUs.wwdFrames")}</li>
           <li>{translate("aboutUs.wwdCustom")}</li>
         </ul>
-        <ImageSlider images={images} paginationLength={images.length} />
         <p className="aboutQualityNote">
           {translate("aboutUs.aboutQualityNote")}
         </p>

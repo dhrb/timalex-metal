@@ -29,22 +29,7 @@ function Footer() {
             >
               {translate("header.headerHome")}
             </NavLink>
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
-              }
-              to="/catalog"
-            >
-              {translate("header.headerCatalog")}
-            </NavLink>
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
-              }
-              to="/balconies"
-            >
-              {translate("header.headerBalconies")}
-            </NavLink>
+
             <NavLink
               className={({ isActive }) =>
                 isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
@@ -52,6 +37,14 @@ function Footer() {
               to="/railings"
             >
               {translate("header.headerRailings")}
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
+              }
+              to="/balconies"
+            >
+              {translate("header.headerFrames")}
             </NavLink>
             <NavLink
               className={({ isActive }) =>

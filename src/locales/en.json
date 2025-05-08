@@ -2,8 +2,8 @@
   "header" : {
     "headerHome": "Home",
     "headerCatalog": "Catalog",
-    "headerBalconies": "Balconies",
     "headerRailings": "Railings",
+    "headerFrames": "Frames",
     "headerGates": "Gates",
     "headerAboutUs": "About Us",
     "headerContact": "Contact"
@@ -12,12 +12,12 @@
     "home" : {
       "homeHeroTitle" : "Timalex-Metal",
       "heroContactUsBtn" : "Contact Us",
-      "heroCatalogBtn" : "Check our projects",
+      "heroCatalogBtn" : "Our projects",
 
       "homeHeroAboutTitle" : "Reliable metal structures for residential and industrial needs.",
-      "homeHeroAboutSubtitle" : "We specialize in manufacturing and installing gates, balconies, railings, welded frames, and fully customized metal projects. With over 30 years of experience, in-house production and precision craftsmanship — we deliver quality you can trust.",
+      "homeHeroAboutSubtitle" : "We specialize in manufacturing and installing gates, balconies, all kind of railings, welded frames, and fully customized metal projects. With over 31+ years of experience, in-house production and precision craftsmanship — we deliver quality you can trust.",
 
-      "homeHeroAdvantagesText1" : "We’ve been working in the field of metal structures for over 30 years, delivering reliable and functional solutions for both residential and commercial projects. We specialize in gates, balconies, railings, frames, and fully customized structures based on client designs.",
+      "homeHeroAdvantagesText1" : "We’ve been working in the field of metal structures for over 30+ years, delivering reliable and functional solutions for both residential and commercial projects. We specialize in gates, balconies, railings, frames, and fully customized structures based on client designs.",
       "homeHeroAdvantagesText2" : "Our team consists of experienced craftsmen, engineers, and installers who are true experts in their work. Every project is carried out with strict attention to quality, precision, and safety standards.",
       "homeHeroAdvantagesText3" : "We operate our own production facilities equipped with modern tools and proven technologies, allowing us to implement even the most complex technical solutions — on time and without compromise.",
       
@@ -132,8 +132,8 @@
       "contactBodyInfoPhone" : "Phone",
       "contactBodyInfoEmail" : "Email",
       "contactBodySocialLinks" : "Social links",
-      "contactBodyFormFN" : "First name",
-      "contactBodyFormLN" : "Last name",
+      "contactBodyFormFN" : "First and Last name",
+      "contactBodyFormFirm" : "Company name",
       "contactFormBtn" : "Send",
       "contactLoadingBtn" : "Sending your information...",
       "contactFooterText" : "We look forward to connecting with you and building a long-term partnership. Thank you for your interest in our company.",

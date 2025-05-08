@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Header from "./components/Header.jsx";
-import Catalog from "./pages/Catalog.jsx";
 import Balconies from "./pages/Balconies.jsx";
 import Railings from "./pages/Railings.jsx";
 import Gates from "./pages/Gates.jsx";
@@ -12,7 +11,6 @@ import CookieConsentBanner from "./components/CookieConsentBanner.jsx";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "./components/LanguageController.jsx";
-import imagesData from "./data/imagesData.jsx";
 
 function App() {
   return (
@@ -29,7 +27,6 @@ function App() {
             <div className="appRouter">
               <Routes>
                 <Route index element={<Home />} />
-                <Route path="/catalog" element={<Catalog />} />
                 <Route path="/balconies" element={<Balconies />} />
                 <Route path="/railings" element={<Railings />} />
                 <Route path="/gates" element={<Gates />} />
