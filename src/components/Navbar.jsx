@@ -71,7 +71,7 @@ function Navbar() {
           {translate(menuCollapsed ? " " : "header.headerRailings")}
         </NavLink>
         <NavLink
-          to="/balconies"
+          to="/frames"
           className={({ isActive }) =>
             isActive ? "navbarLinkActive" : "navbarLinkItem"
           }

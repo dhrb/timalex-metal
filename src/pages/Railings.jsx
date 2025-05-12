@@ -9,7 +9,7 @@ function Railings() {
   const { translate } = useLang();
 
   const railingsImage = imagesData
-    .filter((railing) => railing.category === "rails")
+    .filter((railing) => railing.category === "railings")
     .map((item) => item.image);
 
   return (

@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Header from "./components/Header.jsx";
-import Balconies from "./pages/Balconies.jsx";
+import Frames from "./pages/Frames.jsx";
 import Railings from "./pages/Railings.jsx";
 import Gates from "./pages/Gates.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
@@ -27,8 +27,8 @@ function App() {
             <div className="appRouter">
               <Routes>
                 <Route index element={<Home />} />
-                <Route path="/balconies" element={<Balconies />} />
                 <Route path="/railings" element={<Railings />} />
+                <Route path="/frames" element={<Frames />} />
                 <Route path="/gates" element={<Gates />} />
                 <Route path="/aboutUs" element={<AboutUs />} />
                 <Route path="/contact" element={<Contact />} />

@@ -56,14 +56,14 @@
   font-size: 1.2em;
   font-weight: 300;
   line-height: 23px;
-  margin: 15px 0 0 0;
+  margin: 5px 0 0 0;
 }
 .offerItemImg {
   width: 100px;
 }
 
 .homeHeroAdvantages {
-  margin: 35px 25px 15px;
+  margin: 5px 25px 15px;
 }
 .homeHeroAdvantagesText {
   font-size: 1.2em;
@@ -72,6 +72,8 @@
 .categoryCardsWrapper {
   display: flex;
   width: 100%;
+  margin: 0;
+
   align-items: center;
   justify-content: center;
 }
@@ -109,7 +111,7 @@
 
 .homeContactForm {
   text-align: center;
-  margin: 0 0 30px 0;
+  margin: 20px 0 20px 0;
 }
 .homeContactFormSummary {
   text-align: center;

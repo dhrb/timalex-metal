@@ -12,7 +12,7 @@
     "home" : {
       "homeHeroTitle" : "Timalex-Kov",
       "heroContactUsBtn" : "Kontaktuj nás!",
-      "heroCatalogBtn" : "Naše projekty",
+      "heroCatalogBtn" : "O nás",
 
       "homeHeroAboutTitle" : "Kovové konštrukcie na mieru pre domácnosti aj firmy.",
       "homeHeroAboutSubtitle" : "Zabezpečujeme výrobu a montáž brán, balkónov, zábradlí, oceľových rámov a individuálnych riešení podľa požiadaviek klienta. Viac ako 30 rokov skúseností, vlastná výroba, dodržané termíny a spoľahlivé výsledky.",
@@ -42,15 +42,15 @@
     },
 
     "balconies" : {
-      "balconiesTitle" : "Kovové konštrukcie na mieru pre náročné fasádne riešenia a architektúru",
-      "balconiesSubtitle" : "Vyrábame kovové balkóny pre novostavby aj rekonštrukcie. Individuálny dizajn, statická spoľahlivosť a kvalitné spracovanie detailov.",
+      "balconiesTitle" : "Kovové rámy na mieru pre balkóny, terasy a architektonické riešenia",
+      "balconiesSubtitle" : "Vyrábame odolné kovové rámy pre novostavby aj rekonštrukcie. Každý rám je prispôsobený vašim dizajnovým, rozmerovým a technickým požiadavkám.",
 
-      "balconiesBodyAdvantagesTitle": "Prečo práve naše balkóny?",
-      "balconiesBodyAdvantagesSubtitle": "Pretože neinštalujeme len konštrukcie – vytvárame priestor, kde je radosť žiť. Naše balkóny sú výsledkom desiatok realizovaných projektov na Slovensku, v Nemecku a Holandsku. Používame iba overené materiály, venujeme pozornosť každému detailu a berieme do úvahy klimatické špecifiká regiónu.",
-      "balconiesBodyAdvantagesListItem1": "📌 Pevné konštrukcie, kvalitné zasklenie a moderný vzhľad.",
-      "balconiesBodyAdvantagesListItem2": "📌 Jasné termíny, európska úroveň služieb a záruka až 5 rokov.",
-      "balconiesBodyAdvantagesListItem3": "📌 Individuálny prístup ku každému objektu – od návrhu po montáž.",
-      "balconiesBodyAdvantagesSummary": "S nami získate nielen balkón, ale pohodlné, bezpečné a estetické riešenie na dlhé roky.",
+      "balconiesBodyAdvantagesTitle": "Prečo si vybrať práve naše rámy?",
+      "balconiesBodyAdvantagesSubtitle": "Pretože nedodávame len oceľ – dodávame spoľahlivosť, estetiku a precízne spracovanie. Naše riešenia sú výsledkom dlhoročných skúseností a desiatok realizovaných projektov na Slovensku, v Nemecku a v Holandsku. Používame certifikované materiály, dbáme na pevnosť konštrukcie a zohľadňujeme miestne klimatické podmienky.",
+      "balconiesBodyAdvantagesListItem1": "📌 Spevnené konštrukcie s moderným vzhľadom a dlhou životnosťou",
+      "balconiesBodyAdvantagesListItem2": "📌 Rýchla výroba a dodanie, európska úroveň služieb a záruka až 5 rokov",
+      "balconiesBodyAdvantagesListItem3": "📌 Individuálny prístup – od návrhu až po finálnu montáž",
+      "balconiesBodyAdvantagesSummary": "S nami získate viac než len kovový rám – získate bezpečný a spoľahlivý základ pre váš architektonický zámer.",
 
       "balconiesInfoTitle" : "Kovové balkóny na mieru",
       "balconiesInfoSubtitle" : "Naša spoločnosť sa špecializuje na výrobu kovových balkónov pre rôzne typy objektov — od rodinných domov a víl až po viacpodlažné obytné budovy a komerčné projekty. Spolupracujeme s developermi aj súkromnými klientmi, pričom prispôsobujeme každý návrh konkrétnym architektonickým a technickým požiadavkám.",

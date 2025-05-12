@@ -1,7 +1,7 @@
 .appWrapper {
   display: flex;
   margin: 0 auto;
-  max-width: 1180px;
+  max-width: 1350px;
   width: 100%;
   scroll-behavior: smooth;
 }

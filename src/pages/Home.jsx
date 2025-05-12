@@ -9,10 +9,6 @@ import CategoryCard from "../components/CategoryCard.jsx";
 import categoryCardFrames from "../assets/images/categoryCardFramesImg.jpg";
 import homePageGateImg from "./../assets/images/homepageGateImg.jpg";
 import homePageRailingsImg from "./../assets/images/homePageRailings.jpg";
-import planningStepImg from "./../assets/images/planningStepImg.jpeg";
-import offeringStepImg from "./../assets/images/offeringStepImg.jpeg";
-import workersWorkImg from "./../assets/images/workersWorkImg.jpeg";
-import finishStepImg from "./../assets/images/finishStepImg.jpeg";
 import ContactForm from "../components/ContactForm.jsx";
 
 function Home() {
@@ -27,7 +23,7 @@ function Home() {
           <NavLink to="/contact" className="heroContactUsBtn">
             {translate("home.heroContactUsBtn")}
           </NavLink>
-          <NavLink to="./catalog" className="heroContactUsBtn">
+          <NavLink to="./aboutus" className="heroContactUsBtn">
             {translate("home.heroCatalogBtn")}
           </NavLink>
         </div>

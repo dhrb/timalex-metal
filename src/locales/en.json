@@ -12,7 +12,7 @@
     "home" : {
       "homeHeroTitle" : "Timalex-Metal",
       "heroContactUsBtn" : "Contact Us",
-      "heroCatalogBtn" : "Our projects",
+      "heroCatalogBtn" : "About Us",
 
       "homeHeroAboutTitle" : "Reliable metal structures for residential and industrial needs.",
       "homeHeroAboutSubtitle" : "We specialize in manufacturing and installing gates, balconies, all kind of railings, welded frames, and fully customized metal projects. With over 31+ years of experience, in-house production and precision craftsmanship — we deliver quality you can trust.",
@@ -46,10 +46,10 @@
     },
 
     "balconies" : {
-      "balconiesTitle" : "Custom metal structures for complex architectural façade solutions",
-      "balconiesSubtitle" : "We produce metal balconies for new construction and renovations. Reliable solutions with custom dimensions, design, and technical detailing.",
-      "balconiesBodyAdvantagesTitle" : "Why our balconies?",
-      "balconiesBodyAdvantagesSubtitle" : "Because we don't just install structures - we create a space where it is pleasant to live. Our balconies are the result of dozens of realized projects in Slovakia, Germany and the Netherlands. We use only proven materials, pay attention to every detail and take into account the climatic peculiarities of the region.",
+      "balconiesTitle" : "Custom metal frames for balconies, terraces, and architectural solutions",
+      "balconiesSubtitle" : "We manufacture durable metal frames for both new builds and renovation projects. Each frame is custom-made to meet your design, dimensional, and technical requirements.",
+      "balconiesBodyAdvantagesTitle" : "Why choose our frames?",
+      "balconiesBodyAdvantagesSubtitle" : "Because we don’t just deliver steel – we deliver reliability, aesthetics, and precision engineering. Our frames are based on years of experience and dozens of completed projects across Slovakia, Germany, and the Netherlands. We use certified materials, focus on structural integrity, and consider the local climate in every solution.",
       "balconiesBodyAdvantagesListItem1" : "📌 Sturdy frames, quality glazing and modern appearance.",
       "balconiesBodyAdvantagesListItem2" : "📌 Clear deadlines, European level of service and warranty up to 5 years.",
       "balconiesBodyAdvantagesListItem3" : "📌 Individual approach to each object - from the project to installation.",

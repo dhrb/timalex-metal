@@ -5,18 +5,18 @@ import ImageSlider from "../components/ImageSlider";
 import imagesData from "../data/imagesData";
 import balconiesBgImg from "./../assets/imagesData/balconies1.jpg";
 
-function Balconies() {
+function Frames() {
   const { translate } = useLang();
 
   const balconyImages = imagesData
-    .filter((balcony) => balcony.category === "balcons")
+    .filter((balcony) => balcony.category === "constructions")
     .map((item) => item.image);
 
   return (
     <div className="balconiesWrapper">
       <div className="balconiesNameWrapper">
         <img src={balconiesBgImg} alt="" className="balconiesNameWrapperImg" />
-        <h3 className="balconiesName">{translate("header.headerBalconies")}</h3>
+        <h3 className="balconiesName">{translate("header.headerFrames")}</h3>
       </div>
       <div className="balconiesHeader">
         <h3 className="balconiesTitle">
@@ -69,4 +69,4 @@ function Balconies() {
   );
 }
 
-export default Balconies;
+export default Frames;
