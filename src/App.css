@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
 }
 .appNav {
+  width: auto;
 }
 
 .appMain {

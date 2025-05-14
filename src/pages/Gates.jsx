@@ -3,7 +3,7 @@ import "../styles/Balconies.css";
 import { useLang } from "../components/LanguageController";
 import ImageSlider from "../components/ImageSlider";
 import imagesData from "../data/imagesData";
-import balconiesBgImg from "./../assets/imagesData/balconies1.jpg";
+import gatesBg from "./../assets/images/gatesBg.jpg";
 
 function Gates() {
   const { translate } = useLang();
@@ -15,7 +15,7 @@ function Gates() {
   return (
     <div className="balconiesWrapper">
       <div className="balconiesNameWrapper">
-        <img src={balconiesBgImg} alt="" className="balconiesNameWrapperImg" />
+        <img src={gatesBg} alt="" className="balconiesNameWrapperImg" />
         <h3 className="balconiesName">{translate("header.headerGates")}</h3>
       </div>
       <div className="balconiesHeader">

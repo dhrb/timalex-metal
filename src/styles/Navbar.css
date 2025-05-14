@@ -1,4 +1,5 @@
 .navbarWrapper {
+  background-color: #fff;
   width: 225px;
   height: 100%;
   padding-top: 60px;
@@ -7,6 +8,10 @@
   flex-direction: column;
   transition: all 0.4s;
   font-size: 16px;
+}
+.navlinkBorder {
+  margin-top: 20px;
+  border-top: 0.5px solid grey;
 }
 .navbarClosed {
   display: flex;

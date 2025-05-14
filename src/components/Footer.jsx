@@ -42,7 +42,7 @@ function Footer() {
               className={({ isActive }) =>
                 isActive ? "footerLogoNavLinkActive" : "footerLogoNavLink"
               }
-              to="/balconies"
+              to="/frames"
             >
               {translate("header.headerFrames")}
             </NavLink>
@@ -112,7 +112,6 @@ function Footer() {
           />
           <img src={sendIcon} alt="" className="footerSubscribeSendIcon" />
         </div>
-        <p className="footerAuthor">{translate("footer.footerAuthor")}</p>
         <p className="footerCopyright">
           © {translate("footer.footerCopyright")}
         </p>

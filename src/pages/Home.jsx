@@ -7,9 +7,10 @@ import TotalsBlock from "../components/TotalsBlock";
 import ImagesData from "../data/imagesData.jsx";
 import CategoryCard from "../components/CategoryCard.jsx";
 import categoryCardFrames from "../assets/images/categoryCardFramesImg.jpg";
-import homePageGateImg from "./../assets/images/homepageGateImg.jpg";
+import gatesBg from "./../assets/images/gatesBg.jpg";
 import homePageRailingsImg from "./../assets/images/homePageRailings.jpg";
 import ContactForm from "../components/ContactForm.jsx";
+import homeHeroBgImg from "./../assets/imagesData/constructions1.jpg";
 
 function Home() {
   const { translate } = useLang();
@@ -40,14 +41,14 @@ function Home() {
         <CategoryCard
           img={homePageRailingsImg}
           title={"Railings"}
-          link={"/balconies"}
+          link={"/railings"}
         />
         <CategoryCard
           img={categoryCardFrames}
           title={"Frames"}
-          link={"/railings"}
+          link={"/frames"}
         />
-        <CategoryCard img={homePageGateImg} title={"Gates"} link={"/gates"} />
+        <CategoryCard img={gatesBg} title={"Gates"} link={"/gates"} />
       </div>
       <div className="homeHeroAdvantages">
         <p className="homeHeroAdvantagesText">

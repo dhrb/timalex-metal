@@ -3,7 +3,7 @@ import "../styles/Balconies.css";
 import { useLang } from "../components/LanguageController";
 import ImageSlider from "../components/ImageSlider";
 import imagesData from "../data/imagesData";
-import balconiesBgImg from "./../assets/imagesData/balconies1.jpg";
+import framesBgImg from "./../assets/imagesData/balconies5.png";
 
 function Railings() {
   const { translate } = useLang();
@@ -15,7 +15,7 @@ function Railings() {
   return (
     <div className="balconiesWrapper">
       <div className="balconiesNameWrapper">
-        <img src={balconiesBgImg} alt="" className="balconiesNameWrapperImg" />
+        <img src={framesBgImg} alt="" className="balconiesNameWrapperImg" />
         <h3 className="balconiesName">{translate("header.headerRailings")}</h3>
       </div>
       <div className="balconiesHeader">

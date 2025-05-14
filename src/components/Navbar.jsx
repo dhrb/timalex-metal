@@ -90,7 +90,7 @@ function Navbar() {
           {translate(menuCollapsed ? " " : "header.headerGates")}
         </NavLink>
       </div>
-      <div className="header.navbarLinkItem">
+      <div className="navlinkBorder">
         <NavLink
           to="/aboutUs"
           className={({ isActive }) =>
