@@ -1,9 +1,8 @@
-import React from "react";
 import "../styles/Balconies.css";
 import { useLang } from "../components/LanguageController";
 import ImageSlider from "../components/ImageSlider";
 import imagesData from "../data/imagesData";
-import balconiesBgImg from "./../assets/imagesData/balconies1.jpg";
+import balconiesBgImg from "./../assets/imagesData/constructions1.jpg";
 
 function Frames() {
   const { translate } = useLang();

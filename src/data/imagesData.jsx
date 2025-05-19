@@ -70,7 +70,7 @@ const imagesData = [
 
   {
     image: constructions7,
-    category: "constructions",
+    category: "railings",
     title: "Construction sample 7",
   },
 
