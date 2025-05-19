@@ -5,7 +5,7 @@
       "headerCatalog": "Katalóg",
       "headerRailings": "Zábradlia",
       "headerFrames": "Rámy",
-      "headerGates": "Brány",
+      "headerGates": "Brány & Ploty",
       "headerAboutUs": "O nás",
       "headerContact": "Kontakt"
     },
@@ -28,13 +28,17 @@
       "homeHeroStep3Title": "Výroba a montáž",
       "homeHeroStep3Subtitle": "Vysokokvalitná výroba a profesionálna inštalácia priamo na mieste.",
       "homeHeroStep4Title": "Odovzdanie projektu",
-      "homeHeroStep4Subtitle": "Záverečná kontrola a odovzdanie projektu k úplnej spokojnosti zákazníka."
+      "homeHeroStep4Subtitle": "Záverečná kontrola a odovzdanie projektu k úplnej spokojnosti zákazníka.",
+
+      "homeContactFormTitle" : "Kontaktujte nás ",
+      "homeContactFormSubtitle" : "Máte otázky alebo ste pripravení začať svoj projekt? Sme tu, aby sme vám pomohli - obráťte sa na nás ešte dnes.",
+      "homeContactFormSummary" : "Nižšie nájdete naše kontaktné údaje alebo nám pošlite rýchlu správu prostredníctvom formulára. Náš tím vám čo najskôr odpovie a pomôže vám."
     },
 
     "catalog" : {
       "catalogHeaderTitle" : "Katalóg kovových výrobkov",
       "catalogHeaderSubtitle" : "V tejto časti nájdete príklady našich realizovaných projektov - balkónov, brán, zábradlí a iných kovových konštrukcií.",
-      "catalogHeaderSubtitle2" : " Každý výrobok je vyrobený podľa individuálnych potrieb zákazníka a moderných štandardov kvality.",
+      "catalogHeaderSubtitle2" : "Každý výrobok je vyrobený podľa individuálnych potrieb zákazníka a moderných štandardov kvality.",
       "allFilterBtn" : "Všetky",
       "balconsFilterBtn" : "Balkóny",
       "constructionsFilterBtn" : "Konštrukcie",
@@ -46,7 +50,7 @@
       "balconiesSubtitle" : "Vyrábame odolné kovové rámy pre novostavby aj rekonštrukcie. Každý rám je prispôsobený vašim dizajnovým, rozmerovým a technickým požiadavkám.",
 
       "balconiesBodyAdvantagesTitle": "Prečo si vybrať práve naše rámy?",
-      "balconiesBodyAdvantagesSubtitle": "Pretože nedodávame len oceľ – dodávame spoľahlivosť, estetiku a precízne spracovanie. Naše riešenia sú výsledkom dlhoročných skúseností a desiatok realizovaných projektov na Slovensku, v Nemecku a v Holandsku. Používame certifikované materiály, dbáme na pevnosť konštrukcie a zohľadňujeme miestne klimatické podmienky.",
+      "balconiesBodyAdvantagesSubtitle": "Pretože nedodávame len oceľ – dodávame spoľahlivosť, estetiku a precízne spracovanie. Naše riešenia sú výsledkom dlhoročných skúseností a desiatok realizovaných projektov na Moldavsko, Rumunsko a Bulharsko. Používame certifikované materiály, dbáme na pevnosť konštrukcie a zohľadňujeme miestne klimatické podmienky.",
       "balconiesBodyAdvantagesListItem1": "📌 Spevnené konštrukcie s moderným vzhľadom a dlhou životnosťou",
       "balconiesBodyAdvantagesListItem2": "📌 Rýchla výroba a dodanie, európska úroveň služieb a záruka až 5 rokov",
       "balconiesBodyAdvantagesListItem3": "📌 Individuálny prístup – od návrhu až po finálnu montáž",
@@ -62,7 +66,7 @@
       "railingsSubtitle" : "Oceľové zábradlia pre domy aj verejné priestory. Dôraz na bezpečnosť, estetiku a precízne prispôsobenie architektúre.",
 
       "railingsBodyAdvantagesTitle": "Prečo práve naše zábradlia?",
-      "railingsBodyAdvantagesSubtitle": "Pretože ponúkame viac než len oplotenie — vytvárame bezpečné a estetické riešenia, ktoré podčiarknu štýl vášho objektu. Naše zábradlia sú nainštalované na desiatkach projektov na Slovensku, v Nemecku a Holandsku. Používame len kvalitné materiály a prispôsobujeme sa architektúre a požiadavkám každého projektu.",
+      "railingsBodyAdvantagesSubtitle": "Pretože ponúkame viac než len oplotenie — vytvárame bezpečné a estetické riešenia, ktoré podčiarknu štýl vášho objektu. Naše zábradlia sú nainštalované na desiatkach projektov na Moldavsko, Rumunsko a Bulharsko. Používame len kvalitné materiály a prispôsobujeme sa architektúre a požiadavkám každého projektu.",
       "railingsBodyAdvantagesListItem1": "📌 Odolné konštrukcie z ocele, hliníka a skla — pre domy aj komerčné priestory.",
       "railingsBodyAdvantagesListItem2": "📌 Precízna montáž, moderný dizajn a záruka až 5 rokov.",
       "railingsBodyAdvantagesListItem3": "📌 Individuálny prístup: od merania a návrhu až po inštaláciu.",
@@ -77,7 +81,7 @@
       "gatesSubtitle" : "Realizujeme manuálne aj automatické brány pre súkromné a firemné objekty. Kompletná montáž a technické prispôsobenie.",
 
       "gatesBodyAdvantagesTitle": "Prečo práve naše brány?",
-      "gatesBodyAdvantagesSubtitle": "Pretože naše brány nie sú len vstupom na pozemok — sú vizitkou vášho domova alebo firmy. Realizovali sme desiatky projektov na Slovensku, v Nemecku a Holandsku. Vždy dbáme na bezpečnosť, funkčnosť a estetiku, pričom používame len overené materiály.",
+      "gatesBodyAdvantagesSubtitle": "Pretože naše brány nie sú len vstupom na pozemok — sú vizitkou vášho domova alebo firmy. Realizovali sme desiatky projektov na Moldavsko, Rumunsko a Bulharsko. Vždy dbáme na bezpečnosť, funkčnosť a estetiku, pričom používame len overené materiály.",
       "gatesBodyAdvantagesListItem1": "📌 Kvalitné oceľové a hliníkové konštrukcie s moderným alebo klasickým vzhľadom.",
       "gatesBodyAdvantagesListItem2": "📌 Automatizácia, bezpečnostné prvky a montáž podľa európskych štandardov.",
       "gatesBodyAdvantagesListItem3": "📌 Riešenia na mieru — od návrhu po realizáciu, prispôsobené vašim potrebám.",

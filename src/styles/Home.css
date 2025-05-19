@@ -20,15 +20,15 @@
   text-align: center;
 }
 .heroHeaderBtns {
-  width: 40%;
   display: flex;
+  max-width: 40%;
   margin: 15px 0;
 }
 .heroContactUsBtn {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 220px;
+  width: 100%;
   border: none;
   padding: 5px;
   color: #000000;
@@ -120,25 +120,37 @@
   padding: 0 100px;
 }
 @media screen and (max-width: 885px) {
+  .homeHero {
+    width: 100%;
+  }
   .categoryCardsWrapper {
     flex-wrap: wrap;
     justify-content: center;
   }
   .heroHeaderTitle {
-    width: 80%;
+    width: 70%;
   }
   .heroHeaderBtns {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100px;
+    width: 100%;
     align-items: self-start;
   }
   .heroContactUsBtn {
+    min-width: calc(100% * 1.74);
     width: 100%;
     margin: 0;
   }
   .heroContactUsBtn:nth-child(2) {
     margin: 15px 0 0 0;
+  }
+  .homeContactFormSummary {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .homeHero {
+    padding: 50px 20px;
   }
 }

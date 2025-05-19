@@ -117,4 +117,10 @@
   .contactBodyForm {
     margin: 15px 0;
   }
+  .contactFormSocialLinks {
+    justify-content: left;
+  }
+  .contactFormSocialLink:nth-child(2) {
+    margin: 0 0 0 25px;
+  }
 }

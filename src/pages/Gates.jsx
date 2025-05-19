@@ -16,7 +16,9 @@ function Gates() {
     <div className="balconiesWrapper">
       <div className="balconiesNameWrapper">
         <img src={gatesBg} alt="" className="balconiesNameWrapperImg" />
-        <h3 className="balconiesName">{translate("header.headerGates")}</h3>
+        <h3 className="balconiesName gatesName">
+          {translate("header.headerGates")}
+        </h3>
       </div>
       <div className="balconiesHeader">
         <h3 className="balconiesTitle">{translate("gates.gatesTitle")}</h3>

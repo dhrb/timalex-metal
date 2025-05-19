@@ -1,4 +1,3 @@
-import React from "react";
 import { createContext, useState, useContext } from "react";
 import en from "../locales/en.json";
 import sk from "../locales/sk.json";

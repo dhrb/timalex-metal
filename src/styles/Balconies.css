@@ -13,15 +13,18 @@
   font-size: 3rem;
   font-weight: 600;
   color: #fff;
+  width: 300px;
   background-color: #9c9c9ce8;
   border-radius: 7px;
-  width: 300px;
   text-align: center;
   background-repeat: no-repeat;
   z-index: 1;
   position: relative;
   left: 30px;
   top: 35%;
+}
+.gatesName {
+  width: calc(100% / 1.8);
 }
 .balconiesSubtitle {
   font-size: 17px;

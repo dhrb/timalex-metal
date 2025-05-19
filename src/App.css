@@ -6,7 +6,6 @@
   scroll-behavior: smooth;
 }
 .appNav {
-  width: auto;
 }
 
 .appMain {
@@ -18,7 +17,9 @@
 .appRouter {
   width: 100%;
 }
-
+.appFooter {
+  width: 100%;
+}
 .cookieBannerWrapper {
   position: fixed;
   display: flex;

@@ -3,8 +3,8 @@
     "headerHome": "Home",
     "headerCatalog": "Catalog",
     "headerRailings": "Railings",
-    "headerFrames": "Gates & Fences",
-    "headerGates": "Gates",
+    "headerFrames": "Frames",
+    "headerGates": "Gates & Fances",
     "headerAboutUs": "About Us",
     "headerContact": "Contact"
   },
@@ -32,14 +32,18 @@
       "homeHeroStep3Title": "Production & Installation",
       "homeHeroStep3Subtitle": "Our expert team manufactures each component using top-grade materials and cutting-edge technologies, followed by professional on-site installation with strict quality and safety compliance.",
       "homeHeroStep4Title": "Project Handover",
-      "homeHeroStep4Subtitle": "After a final thorough inspection, we hand over the completed project, ensuring everything meets the agreed standards and leaving you completely satisfied with the final result."
+      "homeHeroStep4Subtitle": "After a final thorough inspection, we hand over the completed project, ensuring everything meets the agreed standards and leaving you completely satisfied with the final result.",
+
+      "homeContactFormTitle" : "Get in Touch with Us",
+      "homeContactFormSubtitle" : "Have questions or ready to start your project? We're here to help — reach out today.",
+      "homeContactFormSummary" : "Find our contact details below or send us a quick message through the form. Our team will respond as soon as possible to assist you."
     },  
 
     "balconies" : {
       "balconiesTitle" : "Custom metal frames for balconies, terraces, and architectural solutions",
       "balconiesSubtitle" : "We manufacture durable metal frames for both new builds and renovation projects. Each frame is custom-made to meet your design, dimensional, and technical requirements.",
       "balconiesBodyAdvantagesTitle" : "Why choose our frames?",
-      "balconiesBodyAdvantagesSubtitle" : "Because we don’t just deliver steel – we deliver reliability, aesthetics, and precision engineering. Our frames are based on years of experience and dozens of completed projects across Slovakia, Germany, and the Netherlands. We use certified materials, focus on structural integrity, and consider the local climate in every solution.",
+      "balconiesBodyAdvantagesSubtitle" : "Because we don’t just deliver steel – we deliver reliability, aesthetics, and precision engineering. Our frames are based on years of experience and dozens of completed projects across Moldova, Romania, and the Bulgary. We use certified materials, focus on structural integrity, and consider the local climate in every solution.",
       "balconiesBodyAdvantagesListItem1" : "📌 Reinforced structures with modern design and long service life",
       "balconiesBodyAdvantagesListItem2" : "📌 Fast production and delivery times, European-level service, and up to 5 years warranty",
       "balconiesBodyAdvantagesListItem3" : "📌 Tailored approach – from design consultation to final assembly",
@@ -55,7 +59,7 @@
       "railingsTitle" : "Reliable safety systems for staircases, terraces, and public environments",
       "railingsSubtitle" : "Durable steel railings for residential and public use. Focus on safety, precision workmanship, and architectural compatibility in every project.",
       "railingsBodyAdvantagesTitle" : "Why our railings?",
-      "railingsBodyAdvantagesSubtitle" : "Because we offer more than just barriers — we create safe and aesthetic solutions that complement the style of your property. Our railings have been installed in dozens of projects in Slovakia, Germany, and the Netherlands. We use only high-quality materials and adapt to the architecture and needs of each project.",
+      "railingsBodyAdvantagesSubtitle" : "Because we offer more than just barriers — we create safe and aesthetic solutions that complement the style of your property. Our railings have been installed in dozens of projects in Moldova, Romania, and the Bulgary. We use only high-quality materials and adapt to the architecture and needs of each project.",
       "railingsBodyAdvantagesListItem1" : "📌 Durable constructions made of steel, aluminum, and glass — for both residential and commercial use.",
       "railingsBodyAdvantagesListItem2" : "📌 Clean installation, modern design, and up to 5-year warranty.",
       "railingsBodyAdvantagesListItem3" : "📌 Individual approach: from measuring and design to final installation.",
@@ -73,7 +77,7 @@
       "gatesSubtitle" : "Design and installation of manual or automated gates for private and commercial facilities. Tailored functionality and strong structural integrity.",
 
       "gatesBodyAdvantagesTitle": "Why choose our gates?",
-      "gatesBodyAdvantagesSubtitle": "Because our gates are more than just an entrance — they are the face of your home or business. We’ve completed dozens of projects in Slovakia, Germany, and the Netherlands. We focus on safety, functionality, and appearance, using only trusted materials.",
+      "gatesBodyAdvantagesSubtitle": "Because our gates are more than just an entrance — they are the face of your home or business. We’ve completed dozens of projects in Moldova, Romania, and the Bulgary. We focus on safety, functionality, and appearance, using only trusted materials.",
       "gatesBodyAdvantagesListItem1": "📌 Durable steel and aluminum structures with a modern or classic design.",
       "gatesBodyAdvantagesListItem2": "📌 Automation, safety features, and installation in line with European standards.",
       "gatesBodyAdvantagesListItem3": "📌 Custom-made solutions — from concept to execution, tailored to your needs.",
